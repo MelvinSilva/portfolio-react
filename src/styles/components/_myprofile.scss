@@ -1,0 +1,42 @@
+.my-profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    h3 {
+        letter-spacing: 2px;
+        margin-left: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 22px;
+        color: rgb(147, 147, 147);
+            span {
+                font-size: 30px;
+                color: aqua;
+            }
+    }
+    
+    .image-circle {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border-top: 4px solid aqua;
+        border-right: 4px solid rgb(255, 255, 255);
+        border-left: 4px solid rgb(255, 255, 255);
+        border-bottom: 4px solid aqua;
+        padding: 5px;
+        animation: spin 10s infinite linear;
+    }
+    .image-circle img {
+        animation: spin 10s infinite reverse linear;
+        width: 100%;
+        border-radius: 50%;
+    }
+
+
+    @keyframes spin {
+        100% {
+            transform: rotate(4turn);
+        }
+    }
+    
+}

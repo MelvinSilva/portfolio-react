@@ -4,9 +4,11 @@ import NavBar from './NavBar.js'
 
 const Header = () => {
     return (
-        <div className='header'>
-            <MyProfile />
-            <NavBar />
+        <div container-header>
+            <div className='header'>
+                <MyProfile />
+                <NavBar />
+            </div>
         </div>
     );
 };

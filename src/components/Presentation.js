@@ -5,7 +5,7 @@ import TypeAnimation from 'react-type-animation';
 
 const Presentation = () => {
     return (
-        <div className='presentation'>
+        <div className='presentation' >
             <TypeAnimation
             cursor={true}
             sequence={[

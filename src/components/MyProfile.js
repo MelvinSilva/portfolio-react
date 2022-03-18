@@ -2,7 +2,7 @@ import React from 'react';
 
 const MyProfil = () => {
     return (
-        <div className='my-profile'>
+        <div className='my-profile' id="accueil">
             <div class="image-circle">
                 <img src="./myprofile.jpg" alt="me" />
             </div>

@@ -1,11 +1,14 @@
 .header {
+    position: fixed;
+    z-index: 999;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    margin: 40px 30px 10px 30px;
-    background-color: rgba(0, 255, 255, 0.023);
+    margin: 30px 5%;
+    background-color: rgba(0, 255, 255, 0.043);
     border: 1px solid rgba(0, 255, 255, 0.064);
     border-bottom-left-radius: 60px;
     border-top-left-radius: 60px;
@@ -18,14 +21,9 @@
         from {
             -webkit-mask-position: 150%;
         }
-    
+
         to {
             -webkit-mask-position: -50%;
         }
     }
- 
-    
-
 }
-
-

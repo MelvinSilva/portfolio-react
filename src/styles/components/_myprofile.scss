@@ -3,6 +3,9 @@
     flex-wrap: wrap;
     align-items: center;
     width: 35%;
+    @media screen and(max-width:940px) {
+        width: 100%;
+      }
     
 
     h3 {
@@ -14,7 +17,13 @@
             span {
                 font-size: 30px;
                 color: aqua;
+                @media screen and(max-width:940px) {
+                    font-size: 17px;
+                  }
             }
+            @media screen and(max-width:940px) {
+                font-size: 14px;
+              }
     }
     
     .image-circle {

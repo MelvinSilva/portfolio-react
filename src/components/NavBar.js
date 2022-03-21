@@ -5,9 +5,9 @@ import { Spin as Hamburger } from 'hamburger-react'
 const Navbar = () => {
     const [burger, setBurger] = useState(false)
 
-    const handleClick = () => {
-        setBurger(!burger)
-    }
+    // const handleClick = () => {
+        // setBurger(!burger)
+    // }
     return (
 
         <div className='navbar'>

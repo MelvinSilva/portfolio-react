@@ -1,21 +1,15 @@
 .header {
     position: fixed;
     z-index: 999;
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    margin: 30px 5%;
-    background-color: rgba(0, 255, 255, 0.105);
-    border: 1px solid rgba(0, 255, 255, 0.064);
-    border-bottom-left-radius: 60px;
-    border-top-left-radius: 60px;
-    border-bottom-right-radius: 60px;
-    border-top-right-radius: 60px;
+    background-color: rgba(0, 52, 52, 0.568);
     mask-image: linear-gradient(-75deg, rgba(0, 0, 0, 0.6) 30%, #000 50%, rgba(0, 0, 0, 0.6) 70%);
-    mask-size: 200%;
-    animation: shine 5s infinite;
+    mask-size: 300%;
+    animation: shine 6s infinite;
     @keyframes shine {
         from {
             -webkit-mask-position: 150%;

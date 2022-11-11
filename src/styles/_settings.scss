@@ -22,7 +22,17 @@ body {
   src: url(../../public/fonts/SF-Pro-Text-Regular.otf);
 }
 
+@font-face {
+  font-family: "draw";
+  src: url(../../public/fonts/BetterGrade-519DV.ttf)
+}
+
 .spline {
   margin: auto;
-  height: 100vh;
+  height: 600px;
+
+}
+
+.anchor {
+  height: 100px;
 }

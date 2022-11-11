@@ -1,0 +1,21 @@
+.stack {
+    margin-top: 20px;
+
+    h1 {
+        text-align: center;
+        font-size: 100px;
+        letter-spacing: 5px;
+        font-family: "draw";
+        font-weight: 300;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-position: 50% 0;
+        background-image: linear-gradient(180deg, #ffffff, #1c1c1c);
+        @media screen and(max-width:540px) {
+            font-size: 70px;
+            height: auto;
+        }
+    }
+
+}

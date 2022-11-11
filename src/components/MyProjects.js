@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-lone-blocks */
 import React from 'react';
 
@@ -25,10 +26,10 @@ const MyProjects = () => {
                             </div>
                             <p>Site web | Github</p>
                             <div className="card-icons">
-                                <a href="https://www.wawasensei.dev" target="_blank" rel="noreferrer">
+                                <a href="#" target="_blank" rel="noreferrer">
                                     <i className="fas fa-link"></i>
                                 </a>
-                                <a href="https://www.youtube.com/channel/UCBH-5ctALmmOrm4kczL3urQ" target="_blank" rel="noreferrer">
+                                <a href="#" target="_blank" rel="noreferrer">
                                     <i className="fab fa-github"></i>
                                 </a>
                             </div>
@@ -52,10 +53,10 @@ const MyProjects = () => {
                             </div>
                             <p>Site web | Github</p>
                             <div className="card-icons">
-                                <a href="https://www.wawasensei.dev" target="_blank" rel="noreferrer">
+                                <a href="#" target="_blank" rel="noreferrer">
                                     <i className="fas fa-link"></i>
                                 </a>
-                                <a href="https://www.youtube.com/channel/UCBH-5ctALmmOrm4kczL3urQ" target="_blank" rel="noreferrer">
+                                <a href="#" target="_blank" rel="noreferrer">
                                     <i className="fab fa-github"></i>
                                 </a>
                             </div>
@@ -79,10 +80,10 @@ const MyProjects = () => {
                             </div>
                             <p>Site web | Github</p>
                             <div className="card-icons">
-                                <a href="https://www.wawasensei.dev" target="_blank" rel="noreferrer">
+                                <a href="#" target="_blank" rel="noreferrer">
                                     <i className="fas fa-link"></i>
                                 </a>
-                                <a href="https://www.youtube.com/channel/UCBH-5ctALmmOrm4kczL3urQ" target="_blank" rel="noreferrer">
+                                <a href="#" target="_blank" rel="noreferrer">
                                     <i className="fab fa-github"></i>
                                 </a>
                             </div>

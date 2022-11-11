@@ -1,19 +1,22 @@
 .my-projects {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 20px 0 20px;
+    align-items: center;
     justify-content: center;
-    
+    height: 100vh;
+    @media screen and(max-width:1180px) {
+        padding-top: 100px;
+    }
 
-    
     .card {
-        background-color: rgba(2, 46, 46, 0.351),;
-        border-radius: 20px;
+
+        border-radius: 22px;
         width: 350px;
         height: 400px;
         display: column;
         color: white;
         margin: 10px;
+        border: 2px solid #ffffff;
 
         img {
             width: 350px;
@@ -21,19 +24,19 @@
             background-size: cover;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
-            border-bottom: 6px solid aqua;
+            border-bottom: 6px solid #b344ff;
             margin-bottom: 5px;
         }
         h2 {
-            color: aqua;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-position: 50% 0;
+            background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
             text-align: center;
-            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
         }
         p {
             text-align: center;
-            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
         }
-
-
     }
 }

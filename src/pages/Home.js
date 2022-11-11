@@ -1,14 +1,18 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
-import Header from '../components/Header';
+import Logo3D from '../components/Logo3D';
 import MyProjects from '../components/MyProjects';
 import Presentation from '../components/Presentation';
+import Stack from '../components/Stack';
+
 
 
 const Home = () => {
     return (
         <div className='home'>
-            <Header />
+            <Logo3D />
             <Presentation />
+            <Stack />
             <MyProjects />
         </div>
     );

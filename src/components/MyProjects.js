@@ -2,7 +2,7 @@ import React from 'react';
 
 const MyProjects = () => {
     return (
-        <div className='my-projects' id="mes-projets">
+        <div className='my-projects' >
             <div className='card'>
                 <img src="/moodmood.png" alt="" />
                 <h2>Mood Moove</h2>

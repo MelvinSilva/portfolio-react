@@ -14,8 +14,9 @@ const Stack = () => {
                 <div class="div4"> <p>REACT</p></div>
                 <div class="div5"> <p>ANGULAR</p></div>
                 <div class="div6"><p>BOOTSTRAP</p> </div>
-                <div class="div7"><p>NODE.JS</p>
-                <p>EXPRESSJS</p></div>
+                <div class="div7">
+                    <p>NODE.JS EXPRESS.JS</p>
+                </div>
                 <div class="div8"><p>POSTGRESQL</p></div>
                 <div class="div9"><p>FIGMA</p> </div>
                 <div class="div10"> <p>PHOTOSHOP</p></div>

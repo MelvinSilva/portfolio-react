@@ -1,5 +1,5 @@
 .stack {
-    margin-top: 20px;
+    margin: auto;
 
     h1 {
         text-align: center;
@@ -17,5 +17,360 @@
             height: auto;
         }
     }
+}
 
+.wrapper {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    font-family: "bold";
+    font-size: 13px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: url(../../../public/7e4ac728-a66a-44e2-89a6-0db6667a5658-html5.png);
+    width: 95px;
+    height: 95px;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 20%;
+
+    p {
+        display: none;
+    }
+
+    &:hover {
+        p {
+            display: flex;
+        }
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-position: 50% 0;
+        background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url(../../../public/css.png);
+    width: 95px;
+    height: 95px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    border-radius: 20%;
+
+    p {
+        display: none;
+    }
+
+    &:hover {
+        p {
+            display: flex;
+        }
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-position: 50% 0;
+        background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-image: url(../../../public/javascript-js-seeklogo.com.svg);
+    width: 95px;
+    height: 95px;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 20%;
+
+    p {
+        display: none;
+    }
+
+    &:hover {
+        p {
+            display: flex;
+        }
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-position: 50% 0;
+        background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.div4 {
+    grid-area: 2 / 1 / 3 / 2;
+    background-image: url(../../../public/react-1-logo-png-transparent.png);
+    width: 95px;
+    height: 95px;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 20%;
+
+    p {
+        display: none;
+    }
+
+    &:hover {
+        p {
+            display: flex;
+        }
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-position: 50% 0;
+        background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.div5 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-image: url(../../../public/angular-logo.png);
+    background-position: center;
+    width: 95px;
+    height: 95px;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 20%;
+
+    p {
+        display: none;
+    }
+
+    &:hover {
+        p {
+            display: flex;
+        }
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-position: 50% 0;
+        background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.div6 {
+    grid-area: 2 / 3 / 3 / 4;
+    background-image: url(../../../public/bootstrap-seeklogo.com.svg);
+    width: 95px;
+    height: 95px;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 20%;
+
+    p {
+        display: none;
+    }
+
+    &:hover {
+        p {
+            display: flex;
+        }
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-position: 50% 0;
+        background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.div7 {
+    grid-area: 3 / 1 / 4 / 2;
+    background-image: url(../../../public/expressjs.jpeg);
+    width: 95px;
+    height: 95px;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 20%;
+
+    p {
+        display: none;
+    }
+
+    &:hover {
+        p {
+            display: flex;
+        }
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-position: 50% 0;
+        background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.div8 {
+    grid-area: 3 / 2 / 4 / 3;
+    background-image: url(../../../public/postgresql-seeklogo.com.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 95px;
+    height: 95px;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 20%;
+
+    p {
+        display: none;
+    }
+
+    &:hover {
+        p {
+            display: flex;
+        }
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-position: 50% 0;
+        background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.div9 {
+    grid-area: 3 / 3 / 4 / 4;
+    background-image: url(../../../public/figma-seeklogo.com.svg);
+    width: 95px;
+    height: 95px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid white;
+    border-radius: 20%;
+
+    p {
+        display: none;
+    }
+
+    &:hover {
+        p {
+            display: flex;
+        }
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-position: 50% 0;
+        background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.div10 {
+    grid-area: 4 / 1 / 5 / 2;
+    background-image: url(../../../public/adobe-photoshop-seeklogo.com.svg);
+    width: 95px;
+    height: 95px;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 20%;
+
+    p {
+        display: none;
+    }
+
+    &:hover {
+        p {
+            display: flex;
+        }
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-position: 50% 0;
+        background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.div11 {
+    grid-area: 4 / 2 / 5 / 3;
+    background-image: url(../../../public/adobe-illustrator-seeklogo.com.svg);
+    width: 95px;
+    height: 95px;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 20%;
+
+    p {
+        display: none;
+    }
+
+    &:hover {
+        p {
+            display: flex;
+        }
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-position: 50% 0;
+        background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.div12 {
+    grid-area: 4 / 3 / 5 / 4;
+    background-image: url(../../../public/nextjs.png);
+    background-position: center;
+    width: 95px;
+    height: 95px;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 20%;
+
+    p {
+        display: none;
+    }
+
+    &:hover {
+        p {
+            display: flex;
+        }
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-position: 50% 0;
+        background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }

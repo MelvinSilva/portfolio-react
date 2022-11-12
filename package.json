@@ -13,6 +13,7 @@
     "burger-menu": "^1.0.12",
     "hamburger-react": "^2.4.1",
     "lucide-react": "^0.91.0",
+    "particles": "^0.3.1",
     "react": "^17.0.2",
     "react-animated-text-content": "^1.0.1",
     "react-burger-menu": "^3.0.6",
@@ -26,6 +27,7 @@
     "reactypo": "^1.0.13",
     "sass": "^1.49.9",
     "spline": "^0.0.0",
+    "template": "^0.17.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

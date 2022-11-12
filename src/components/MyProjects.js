@@ -6,6 +6,7 @@ const MyProjects = () => {
     return (
         <div className="title">
             <div class="anchor" id="mes-projets"></div>
+            <div class="geeks"></div>
             <h1>Mes projets</h1>
             <div class="geeks"></div>
             <div className='my-projects'>

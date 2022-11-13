@@ -122,7 +122,7 @@
         -webkit-background-clip: text;
         background-clip: text;
         background-position: 50% 0;
-        background-image: linear-gradient(180deg, #ffb6ffa0, #b444ff17);
+        background-image: linear-gradient(90deg, #ffb6ffb3, #b444ff89);
         @media screen and(max-width:540px) {
             font-size: 60px;
             height: auto;
@@ -150,7 +150,7 @@
             -webkit-background-clip: text;
             background-clip: text;
             background-position: 50% 0;
-            background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+            background-image: linear-gradient(90deg, #ffb6ff, #b344ff);
         }
         @media screen and(max-width:540px) {
             font-size: 35px;
@@ -160,5 +160,17 @@
 
     @media screen and(max-width:540px) {
         margin-top: 100px;
+    }
+
+    .description {
+        margin: 20px 100px;
+        text-align: justify;
+        font-family: "regular";
+        font-size: 20px;
+        @media screen and(max-width:540px) {
+            margin:20px 15px;
+        }
+
+
     }
 }

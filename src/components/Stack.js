@@ -4,7 +4,6 @@ const Stack = () => {
     return (
         <div className="stack">
             <div class="anchor" id="stack"></div>
-            <div class="geeks"></div>
             <h1>Ma stack technique</h1>
             <div class="geeks"></div>
             <div class="wrapper">

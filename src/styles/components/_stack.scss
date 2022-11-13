@@ -39,9 +39,11 @@
     background-size: cover;
     border: 2px solid white;
     border-radius: 20%;
+    transition: 1.6s;
 
     p {
         display: none;
+
     }
 
     &:hover {

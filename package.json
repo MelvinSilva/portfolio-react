@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.9.1",
     "@splinetool/react-spline": "^2.2.3",
     "@splinetool/runtime": "^0.9.138",
     "@testing-library/jest-dom": "^5.16.2",
@@ -11,6 +12,7 @@
     "animated-burger-menu": "^1.0.1",
     "aos": "^2.3.4",
     "burger-menu": "^1.0.12",
+    "emailjs": "^4.0.1",
     "hamburger-react": "^2.4.1",
     "lucide-react": "^0.91.0",
     "particles": "^0.3.1",

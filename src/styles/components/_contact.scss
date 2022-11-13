@@ -15,11 +15,66 @@ h1 {
     }
 }
 
-.demo {
-    margin-top: 10px;
-    margin-bottom: 50px;
-    padding: 20px;
-    text-align: center;
-    font-family: "regular";
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    background: linear-gradient(180deg, #b444ff31, #13061c);
+    padding: 30px;
+    border-radius: 5px;
+    border: 3px solid white;
 
+    @media screen and(max-width:920px) {
+        width: 650px;
+    }
+    @media screen and(max-width:720px) {
+        width: 320px;
+    }
+
+    label {
+        font-size: 20px;
+        font-family: "regular";
+        color: white;
+        margin-bottom: 5px;
+        
+    }
+
+    input {
+        margin-bottom: 20px;
+        height: 40px;
+        border-radius: 5px;
+        background-image: linear-gradient(90deg, #ffb6ff43, #b444ff3e);
+        border: none;
+    }
+
+    textarea {
+        border: none;
+        height: 150px;
+        border-radius: 5px;
+        background-image: linear-gradient(90deg, #ffb6ff43, #b444ff3e);
+    }
+
+    button {
+        margin: auto;
+        width: 320px;
+        margin-top: 30px;
+        height: 60px;
+        background-image: linear-gradient(90deg, #ffb6ff, #b344ff);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-family: "regular";
+        letter-spacing: 3px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: 0.6s;
+        
+
+        &:hover {
+            background: #86868b;
+        }
+    }
 }

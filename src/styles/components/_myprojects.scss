@@ -115,13 +115,14 @@
 
 .card-front .card-content, .card-content2, .card-content3 {
     z-index: 1;
-    color: #0000005c;
+    color: #000000ac;
     background: linear-gradient(180deg, #ffffff, #b344ff);
-    font-family: "draw";
+    font-family: "bold";
     padding: 30px 10px;
-    font-size: 30px;
-    letter-spacing: 3px;
-    border-radius: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .card-front .card-content p, .card-content2 p, .card-content3 p{

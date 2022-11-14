@@ -121,6 +121,7 @@
     padding: 30px 10px;
     font-size: 30px;
     letter-spacing: 3px;
+    border-radius: 30px;
 }
 
 .card-front .card-content p, .card-content2 p, .card-content3 p{
@@ -193,7 +194,7 @@
 
 .card-back .card-icons a, .card-back2 .card-icons a, .card-back3 .card-icons a {
     font-size: 18px;
-    color: rgb(0, 0, 0);
+    color: black;
     background: rgb(255, 255, 255);
     width: 42px;
     height: 42px;

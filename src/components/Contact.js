@@ -11,8 +11,8 @@ const Contact = () => {
             }, (error) => {
                 console.log(error.text);
             });
-            alert("Merci ! Votre message a été envoyé avec succès")
-            e.target.reset();
+        alert("Merci ! Votre message a été envoyé avec succès")
+        e.target.reset();
     };
 
 
@@ -24,11 +24,11 @@ const Contact = () => {
             <div class="geeks"></div>
             <form onSubmit={sendEmail}>
                 <label>Nom</label>
-                <input type="text" name="user_name" required/>
+                <input type="text" name="user_name" required />
                 <label>Email</label>
-                <input type="email" name="user_email" required/>
+                <input type="email" name="user_email" required />
                 <label>Message</label>
-                <textarea name="message" required/>
+                <textarea name="message" required />
                 <button type="submit">Envoyer</button>
             </form>
         </div>

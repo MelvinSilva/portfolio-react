@@ -15,7 +15,7 @@ h1 {
     }
 }
 
-form {
+ form {
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -24,8 +24,7 @@ form {
     margin-top: 50px;
     background: linear-gradient(180deg, #b444ff31, #13061c);
     padding: 20px;
-    border-radius: 5px;
-    border: 1px solid white;
+    border-radius: 10px;
 
     @media screen and(max-width:920px) {
         width: 650px;
@@ -35,7 +34,7 @@ form {
     }
 
     label {
-        font-size: 20px;
+        font-size: 16px;
         font-family: "regular";
         color: white;
         margin-bottom: 5px;
@@ -85,4 +84,4 @@ form {
             background: #86868b;
         }
     }
-}
+} 

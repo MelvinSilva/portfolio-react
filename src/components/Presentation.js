@@ -26,12 +26,13 @@ const Presentation = () => {
                 <AnimationOnScroll delay={500} animateIn="animate__fadeInLeftBig">
                 <p><span>développeur</span> <span>front-end</span></p>
                 </AnimationOnScroll>
-                <AnimationOnScroll delay={2000} animateIn="animate__wobble">
+                <AnimationOnScroll delay={1000} animateIn="animate__wobble">
                 <p><i><strike>mais aussi</strike></i></p>
                 </AnimationOnScroll>
-                <AnimationOnScroll delay={3000} animateIn="animate__fadeInLeftBig">
+                <AnimationOnScroll delay={1500} animateIn="animate__fadeInLeftBig">
                 <p><span>designer</span> à Paris.</p>
                 </AnimationOnScroll>
+                
                 {/* <p>Je suis<br /> <span>développeur</span> <span>front-end</span><br />  <i><strike>mais aussi</strike></i> <br /> <span>designer</span> à Paris.</p> */}
                 {/* <br/>
                 <p className='description'>Issue d'une formation <span>diplômante</span>, j'ai pu apprendre des <span>langages de programmation</span> pour le développement web &#40;voir ici&#41; et construire des <span>API</span> afin de manipuler des données.

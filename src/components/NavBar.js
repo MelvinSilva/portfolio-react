@@ -18,14 +18,14 @@ const Navbar = () => {
             <ul className="navbar-normal">
                 <a  href="#home"><li>HOME</li></a>
                 <a href="#stack"><li>STACK</li></a>
-                <a href="#mes-projets"><li>PROJETS</li></a>
+                <a href="#mes-projets"><li>PROJECTS</li></a>
                 <a href="#contact"><li>CONTACT</li></a>
             </ul>
 
             {burger && <ul className="navbar-burger" onClick={handleClick}>
                 <a href="#home"><li>HOME</li></a>
                 <a href="#stack"><li>STACK</li></a>
-                <a href="#mes-projets"><li>PROJETS</li></a>
+                <a href="#mes-projets"><li>PROJECTS</li></a>
                 <a href="#contact"><li>CONTACT</li></a>
             </ul>}
             <div className="navbar-burger"><Hamburger toggled={burger} toggle={setBurger} />

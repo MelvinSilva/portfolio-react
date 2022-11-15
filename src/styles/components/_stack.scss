@@ -37,9 +37,9 @@
     height: 95px;
     background-position: center;
     background-size: cover;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20%;
-    transition: 1.6s;
+    transition: .5s;
 
     p {
         display: none;
@@ -47,6 +47,7 @@
     }
 
     &:hover {
+        border-radius: 90%;
         p {
             display: flex;
         }
@@ -68,14 +69,16 @@
     height: 95px;
     background-size: cover;
     background-position: center;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20%;
+    transition: .5s;
 
     p {
         display: none;
     }
 
     &:hover {
+        border-radius: 90%;
         p {
             display: flex;
         }
@@ -96,14 +99,16 @@
     width: 95px;
     height: 95px;
     background-size: cover;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20%;
+    transition: .5s;
 
     p {
         display: none;
     }
 
     &:hover {
+        border-radius: 90%;
         p {
             display: flex;
 
@@ -125,14 +130,16 @@
     width: 95px;
     height: 95px;
     background-size: cover;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20%;
+    transition: .5s;
 
     p {
         display: none;
     }
 
     &:hover {
+        border-radius: 90%;
         p {
             display: flex;
         }
@@ -154,14 +161,16 @@
     width: 95px;
     height: 95px;
     background-size: cover;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20%;
+    transition: .5s;
 
     p {
         display: none;
     }
 
     &:hover {
+        border-radius: 90%;
         p {
             display: flex;
         }
@@ -182,14 +191,16 @@
     width: 95px;
     height: 95px;
     background-size: cover;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20%;
+    transition: .5s;
 
     p {
         display: none;
     }
 
     &:hover {
+        border-radius: 90%;
         p {
             display: flex;
         }
@@ -210,14 +221,16 @@
     width: 95px;
     height: 95px;
     background-size: cover;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20%;
+    transition: .5s;
 
     p {
         display: none;
     }
 
     &:hover {
+        border-radius: 90%;
         p {
             display: flex;
             text-align: center;
@@ -241,14 +254,16 @@
     width: 95px;
     height: 95px;
     background-size: cover;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20%;
+    transition: .5s;
 
     p {
         display: none;
     }
 
     &:hover {
+        border-radius: 90%;
         p {
             display: flex;
         }
@@ -271,14 +286,16 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20%;
+    transition: .5s;
 
     p {
         display: none;
     }
 
     &:hover {
+        border-radius: 90%;
         p {
             display: flex;
         }
@@ -299,14 +316,16 @@
     width: 95px;
     height: 95px;
     background-size: cover;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20%;
+    transition: .5s;
 
     p {
         display: none;
     }
 
     &:hover {
+        border-radius: 90%;
         p {
             display: flex;
         }
@@ -327,14 +346,16 @@
     width: 95px;
     height: 95px;
     background-size: cover;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20%;
+    transition: .5s;
 
     p {
         display: none;
     }
 
     &:hover {
+        border-radius: 90%;
         p {
             display: flex;
         }
@@ -356,14 +377,16 @@
     width: 95px;
     height: 95px;
     background-size: cover;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20%;
+    transition: .5s;
 
     p {
         display: none;
     }
 
     &:hover {
+        border-radius: 90%;
         p {
             display: flex;
         }

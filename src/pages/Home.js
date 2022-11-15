@@ -11,7 +11,6 @@ import Contact from '../components/Contact';
 const Home = () => {
     return (
         <div className='home' id='home'>
-            <Logo3D />
             <Presentation />
             <Stack />
             <MyProjects />

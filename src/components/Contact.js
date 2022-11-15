@@ -22,14 +22,12 @@ const Contact = () => {
             <div class="anchor" id="contact"></div>
             <h1>Contact</h1>
             <div class="geeks"></div>
+            <p className='infos'>Take a coffee & chat with me</p>
             <form onSubmit={sendEmail}>
-                <label>Nom</label>
-                <input type="text" name="user_name" required />
-                <label>Email</label>
-                <input type="email" name="user_email" required />
-                <label>Message</label>
-                <textarea name="message" required />
-                <button type="submit">Envoyer</button>
+                <input placeholder="Name" type="text" name="user_name" required />
+                <input placeholder="Email" type="email" name="user_email" required />
+                <textarea placeholder="Your message" name="message" required />
+                <button type="submit">Send message</button>
             </form>
         </div>
     );

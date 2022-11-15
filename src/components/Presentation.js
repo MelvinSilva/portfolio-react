@@ -1,37 +1,30 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
-import TypeAnimation from 'react-type-animation';
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { IoColorPaletteOutline, IoDesktopOutline} from "react-icons/io5";
 
 
 const Presentation = () => {
 
     return (
         <div>
+            <div class="anchor" id="mes-projets"></div>
             <div className='presentation'>
-                <TypeAnimation
-                    cursor={true}
-                    sequence={[
-                        'Bonjour 👋',
-                        1000,
-                    ]}
-                    className="bounce-in-top"
-                    repeat={Infinity}
-                />
+                <p className='name'>HI MY NAME IS</p>
+                <AnimationOnScroll delay={500} animateIn="animate__tada">
+                <p><span>Melvin Silva.</span></p>
+                </AnimationOnScroll>
+                <br/>
+                <AnimationOnScroll delay={700} animateIn="animate__fadeInLeftBig">
+                <p><span>I'm a Full Stack Dev</span></p>
+                </AnimationOnScroll>
+                <AnimationOnScroll delay={1100}  animateIn="animate__fadeInLeftBig">
+                <p><span>and Designer</span></p>
+                <IoDesktopOutline /> <IoColorPaletteOutline />
+                </AnimationOnScroll>
 
-                <AnimationOnScroll animateIn="animate__tada">
-                <p>Je suis</p>
-                </AnimationOnScroll>
-                <AnimationOnScroll delay={500} animateIn="animate__fadeInLeftBig">
-                <p><span>développeur</span> <span>front-end</span></p>
-                </AnimationOnScroll>
-                <AnimationOnScroll delay={1000} animateIn="animate__wobble">
-                <p><i><strike>mais aussi</strike></i></p>
-                </AnimationOnScroll>
-                <AnimationOnScroll delay={1500} animateIn="animate__fadeInLeftBig">
-                <p><span>designer</span> à Paris.</p>
-                </AnimationOnScroll>
+                <p className='description'>I like to build amazing UI/UX experiences for humans 🚀 <br/>Currently Im working on a mission for a large railway company on Java and Angular technology 💻</p>
                 
                 {/* <p>Je suis<br /> <span>développeur</span> <span>front-end</span><br />  <i><strike>mais aussi</strike></i> <br /> <span>designer</span> à Paris.</p> */}
                 {/* <br/>

@@ -21,16 +21,16 @@ const CardProject = ( { data }) => {
                     </div>
                     <div className="card-back">
                         <div className="card-top">
-                                <img className ="card-image" src={data.image} alt='img-project'/>
+                                {data.image ? <img className ="card-image" src={data.image} alt='img-project'/> : <img className ="card-image" src="myprofile.jpg" alt='img-project'/> }
                         </div>
-                        <p>Site web | Github</p>
+                        <p><i>{data.info}</i></p>
                         <div className="card-icons">
-                            <a href="#" target="_blank" rel="noreferrer">
+                            {data.website ? <a href={data.website} target="_blank" rel="noreferrer">
                                 <i className="fas fa-link"></i>
-                            </a>
-                            <a href="#" target="_blank" rel="noreferrer">
+                            </a> : " "}
+                            {data.github ? <a href={data.github} target="_blank" rel="noreferrer">
                                 <i className="fab fa-github">{data.link}</i>
-                            </a>
+                            </a> : " " }
                         </div>
                     </div>
                 </div>

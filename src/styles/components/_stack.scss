@@ -34,9 +34,6 @@
     border-radius: 20%;
     padding: 8px;
     background-size: cover;
-
-
-
     img {
         width: 115px;
         height: 115px;
@@ -49,14 +46,16 @@
     }
 
     &:hover {
+
         img {
             display: none;
         }
-        border-radius: 90%;
 
         p {
             display: flex;
         }
+
+        border-radius: 90%;
         background: linear-gradient(45deg, #b444ff31, #13061c);
         display: flex;
         flex-direction: column;

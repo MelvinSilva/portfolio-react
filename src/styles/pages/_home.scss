@@ -3,4 +3,60 @@
     flex-direction: column;
     margin: auto;
     height: auto;
+    transition: all 0.4s ease-in-out;
+}
+
+.home.light {
+    background-color: #f6e9ff;
+    color: #0f0517;
+    transition: all 0.5s ease-in-out;
+
+    p {
+        color: #0f0517a3;
+    }
+    h1 {
+        color: #0f051796;
+    }
+    svg {
+        color: #0f0517;
+    }
+
+    input, textarea {
+        background: #f6eaff;
+        border: 1px solid #0f0517;
+        color: #0f0517;
+        &::placeholder {
+            color: #0f051773;
+        }
+    }
+
+    .card-front:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        background: linear-gradient(180deg, #b444ff0e, #13061c07);
+    }
+
+    .card-front .card-content p {
+        color: #0f0517a3;
+    }
+
+    .card-front .card-content h5 {
+        span {
+            color: #0f0517a3;
+            border: 2px solid #6f40919d;
+        }
+    }
+    .card-front .card-content {
+        color: #6f40919d;
+
+        svg {
+            color: #0f0517a3;
+        }
+    }
+    .card-back {
+        background: linear-gradient(180deg, #b444ff0e, #13061c07);
+    }
 }

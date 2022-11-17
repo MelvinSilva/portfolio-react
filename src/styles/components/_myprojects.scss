@@ -84,7 +84,6 @@
     font-family: "bold";
     font-size: 20px;
     letter-spacing: 2px;
-
     svg {
         font-size: 40px;
         margin-top: 30px;
@@ -137,9 +136,7 @@
     border: solid 2px #ffffff;
     margin: 0 auto;
     border-radius: 100%;
-
 }
-
 
 .card-back p {
     margin-top: 12px;
@@ -187,5 +184,6 @@
     margin: auto;
 }
 
-
-
+.card.light {
+    background: white;
+}

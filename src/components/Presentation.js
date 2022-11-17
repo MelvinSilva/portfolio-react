@@ -11,7 +11,7 @@ const Presentation = () => {
         <div>
             <div class="anchor"></div>
             <div className='presentation'>
-                <p className='name'>HI MY NAME IS</p>
+                <p className='name'>H&ensp;&ensp;  I&ensp;&ensp;  &ensp;&ensp;   M&ensp;&ensp;  Y&ensp;&ensp;  &ensp;&ensp;   N&ensp;&ensp;  A&ensp;&ensp;  M&ensp;&ensp;  E&ensp;&ensp;  &ensp;&ensp;   I&ensp;&ensp;  S</p>
                 <AnimationOnScroll delay={500} animateIn="animate__tada">
                 <p><span>Melvin Silva</span></p>
                 </AnimationOnScroll>

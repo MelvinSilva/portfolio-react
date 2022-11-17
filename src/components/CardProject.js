@@ -3,6 +3,7 @@ import React from 'react';
 import { IoArrowUndoCircleOutline, IoArrowRedoCircleOutline } from "react-icons/io5";
 
 const CardProject = ( { data }) => {
+    
     return (
         <div>
             <div className="card">

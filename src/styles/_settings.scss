@@ -24,15 +24,46 @@ body {
 
 @font-face {
   font-family: "draw";
-  src: url(../../public/fonts/BetterGrade-519DV.ttf)
+  src: url(../../public/fonts/BetterGrade-519DV.ttf);
 }
 
 .spline {
   margin: auto;
   height: 300px;
-
 }
 
 .anchor {
   height: 100px;
+}
+
+.btn-toggle {
+  color: black;
+  z-index: 20;
+  position: fixed;
+  top: 22px;
+  margin-left: 150px;
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.891);
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+
+  @media screen and(max-width:540px) {
+    top: 16px;
+    right: 60px;
+  }
+}
+
+.btn-toggle.goLight {
+  background-color: #0f0517;
+  color: white;
+}
+.btn-toggle.goDark {
+  background: rgba(255, 255, 255, 0.891);
+  color: black;
 }

@@ -36,7 +36,6 @@ const CardProject = ( { data }) => {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 };

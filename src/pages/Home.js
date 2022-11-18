@@ -6,6 +6,7 @@ import Presentation from '../components/Presentation';
 import Stack from '../components/MyStack';
 import Contact from '../components/Contact';
 import { ThemeContext } from '../contexts/ThemeContext';
+import Footer from '../components/Footer';
 
 
 
@@ -20,6 +21,7 @@ const Home = () => {
             <Stack />
             <MyProjects />
             <Contact /> 
+            <Footer />
         </div>
     );
 };

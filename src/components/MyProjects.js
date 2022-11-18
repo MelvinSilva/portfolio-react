@@ -5,7 +5,6 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { data } from './data';
 import CardProject from './CardProject';
 
-
 const MyProjects = () => {
     return (
         <div>
@@ -26,22 +25,3 @@ const MyProjects = () => {
 };
 
 export default MyProjects;
-
-
-{/* <div className='my-projects' >
-            <div className='card'>
-                <img src="/moodmood.png" alt="" />
-                <h2>Mood Moove</h2>
-                <p>Description du projet</p>
-            </div>
-            <div className='card'>
-                <img src="/wikiplayer.png" alt="" />
-                <h2>Wiki-Player</h2>
-                <p>Description du projet</p>
-            </div>
-            <div className='card'>
-                <img src="/blogcrypto.png" alt="" />
-                <h2>Blog Crypto</h2>
-                <p>Description du projet</p>
-            </div>
-        </div> */}

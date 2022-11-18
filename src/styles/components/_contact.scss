@@ -25,12 +25,10 @@ h1 {
         font-size: 15px;
         line-height:22px;
     }
-
-
 }
 
  form {
-    margin: 20px auto 200px auto;
+    margin: 20px auto 50px auto;
     display: flex;
     flex-direction: column;
     width: 800px;
@@ -61,8 +59,6 @@ h1 {
         @media screen and(max-width:720px) {
             font-size: 16px;
         }
-
-
     }
 
     textarea {
@@ -106,7 +102,6 @@ h1 {
             width: 320px;
         }
         
-
         &:hover {
             background: #b344ff;
         }

@@ -12,14 +12,14 @@ const Presentation = () => {
             <div class="anchor"></div>
             <div className='presentation'>
                 <p className='name'>H&ensp;&ensp;  I&ensp;&ensp;  &ensp;&ensp;   M&ensp;&ensp;  Y&ensp;&ensp;  &ensp;&ensp;   N&ensp;&ensp;  A&ensp;&ensp;  M&ensp;&ensp;  E&ensp;&ensp;  &ensp;&ensp;   I&ensp;&ensp;  S</p>
-                <AnimationOnScroll delay={300} animateIn="animate__tada">
+                <AnimationOnScroll delay={500} animateIn="animate__tada">
                 <p><span>Melvin Silva</span></p>
                 </AnimationOnScroll>
                 <br/>
-                <AnimationOnScroll delay={400} animateIn="animate__fadeInLeftBig">
+                <AnimationOnScroll delay={300} animateIn="animate__fadeInLeftBig">
                 <p><span>I'm a Full Stack Dev</span></p>
                 </AnimationOnScroll>
-                <AnimationOnScroll delay={500}  animateIn="animate__fadeInLeftBig">
+                <AnimationOnScroll delay={200}  animateIn="animate__fadeInLeftBig">
                 <p><span>and Designer</span></p>
                 <IoDesktopOutline /> <IoColorPaletteOutline />
                 </AnimationOnScroll>

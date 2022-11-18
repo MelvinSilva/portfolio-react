@@ -15,8 +15,6 @@ const Contact = () => {
         e.target.reset();
     };
 
-
-
     return (
         <div>
             <div class="anchor" id="contact"></div>

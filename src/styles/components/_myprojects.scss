@@ -30,6 +30,13 @@
     margin-top: 20px;
 }
 
+.presentation-project {
+    margin: 30px 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.618);
+    letter-spacing: 3px;
+}
+
 .card {
     padding: 20px;
     margin: auto;
@@ -59,6 +66,8 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 30px;
+    box-shadow: 3px 3px 0px 0px #B44FF3, 6px 6px 0px 0px #b44ff387, 9px 9px 0px 0px #b44ff345, 12px 12px 0px 0px #b44ff326,
+        15px 15px 0px 0px #b44ff30d, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 .card-front {
@@ -80,7 +89,7 @@
 
 .card-front .card-content {
     z-index: 1;
-    color: #6f409187;
+    color: #6f4091c1;
     font-family: "bold";
     font-size: 20px;
     letter-spacing: 2px;

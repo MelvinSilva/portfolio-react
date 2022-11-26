@@ -10,7 +10,7 @@
     h3 {
         letter-spacing: 2px;
         margin-left: 15px;
-        font-size: 8px;
+        font-size: 15px;
         color: rgb(255, 255, 255);
         span {
             font-size: 22px;
@@ -20,18 +20,13 @@
             background-position: 50% 0;
             background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
 
-            @media screen and(max-width:940px) {
+            @media screen and(max-width:455px) {
                 font-size: 15px;
             }
-            @media screen and(max-width:455px) {
-                font-size: 10px;
-            }
         }
-        @media screen and(max-width:940px) {
-            font-size: px;
-        }
+        
         @media screen and(max-width:455px) {
-            font-size: 6px;
+            font-size: 10px;
         }
     }
 

@@ -22,7 +22,8 @@ h1 {
     margin: 30px;
     text-align: center;
     color: rgba(255, 255, 255, 0.750);
-    letter-spacing: 3px;
+    letter-spacing: 1px;
+    font-style: italic;
     @media screen and(max-width:540px) {
         margin:20px 30px;
         font-size: 15px;

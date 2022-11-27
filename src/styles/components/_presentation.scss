@@ -64,41 +64,43 @@
         }
     }
 
-    @keyframes uparrow {
-        0% {
-            transform: translateY(0);
-            opacity: 0.4;
-        }
-        100% {
-            transform: translateY(-0.4em);
-            opacity: 0.9;
-        }
+    .arrows {
+        margin: 13px auto 0px auto;
+        width: 60px;
+        height: 72px;
     }
-    @keyframes downarrow {
+
+    .arrows path {
+        stroke: #b444ffb3;
+        fill: transparent;
+        stroke-width: 1.5px;
+        animation: arrow 2s infinite;
+    }
+
+    @keyframes arrow {
         0% {
-            transform: translateY(0);
-            opacity: 0.4;
+            opacity: 0;
+        }
+        40% {
+            opacity: 1;
+        }
+        80% {
+            opacity: 0;
         }
         100% {
-            transform: translateY(0.4em);
-            opacity: 0.9;
+            opacity: 0;
         }
     }
 
-    .arrow {
-        border-color: transparent;
-        border-style: solid;
-        border-width: 0 2em;
-        display: block;
-        height: 0;
-        margin: 1em auto;
-        opacity: 0.4;
-        text-indent: -9999px;
-        transform-origin: 50% 50%;
-        width: 0;
+    .arrows path.a1 {
+        animation-delay: -1s;
     }
-    .down {
-        animation: downarrow 0.6s infinite alternate ease-in-out;
-        border-top: 2em solid #b444ff90;
+
+    .arrows path.a2 {
+        animation-delay: -0.5s;
+    }
+
+    .arrows path.a3 {
+        animation-delay: 0s;
     }
 }

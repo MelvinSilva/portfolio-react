@@ -10,7 +10,7 @@ const MyStack = () => {
             <div class="geeks"></div>
             <p className='presentation-stack'>My technical skills
             <br/>
-            &#40;pass the 🖱 mouse over the logo if you don't recognize it 😉&#41;</p>
+            &#40;pass the mouse over the logo if you don't recognize it 😉&#41;</p>
             <div className='wrapper-stack'>{stackData.map(stack => (
                 <CardStack key={stack.id} stackData={stack} />
             ))}

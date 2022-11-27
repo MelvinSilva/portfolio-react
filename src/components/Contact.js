@@ -20,7 +20,7 @@ const Contact = () => {
             <div class="anchor" id="contact"></div>
             <h1>Contact</h1>
             <div class="geeks"></div>
-            <p className='infos'>For any project contact me by email via this contact form to discuss over a coffee ☕ 
+            <p className='infos'>For any project contact me by email on this contact form to discuss over a coffee ☕ 
 <strike>or else if you don't like 😁</strike></p>
             <form onSubmit={sendEmail}>
                 <input placeholder="Name" type="text" name="user_name" required />

@@ -7,7 +7,7 @@ const BtnToggle = () => {
     const {toggleTheme, theme} = useContext(ThemeContext)
     return (
         <div onClick={toggleTheme} className={theme ? "btn-toggle goDark" : "btn-toggle goLight"}>
-            {theme ? <MdOutlineLightMode /> : <MdOutlineDarkMode />}
+            {theme ? <MdOutlineDarkMode /> : <MdOutlineLightMode />}
             
         </div>
     );

@@ -7,8 +7,7 @@ import Stack from '../components/MyStack';
 import Contact from '../components/Contact';
 import { ThemeContext } from '../contexts/ThemeContext';
 import Footer from '../components/Footer';
-
-
+import Header from '../components/Header'
 
 const Home = () => {
 
@@ -16,6 +15,7 @@ const Home = () => {
 
     return (
         <div className={theme ? 'home' : 'home light'} id='home'>
+            <Header />
             <Logo3D />
             <Presentation />
             <Stack />

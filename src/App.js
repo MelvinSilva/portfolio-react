@@ -13,7 +13,6 @@ function App() {
     <div>
       <ThemeContextProvider>
         <BtnToggle />
-        <Header />
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />

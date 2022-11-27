@@ -14,20 +14,3 @@
         height: auto;
     }
 }
-
-.header.light {
-    z-index: 10;
-    position: fixed;
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    background: #000000fc;
-    -webkit-backdrop-filter: saturate(180%) blur(10px);
-    backdrop-filter: saturate(180%) blur(10px);
-    @media screen and(max-width:450px) {
-        height: auto;
-    }
-}

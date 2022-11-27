@@ -61,7 +61,10 @@ body {
 }
 
 .btn-toggle.goLight {
-  background-image: linear-gradient(45deg, #ffb6ff34, #b444ff3b);
+  background-image: linear-gradient(45deg, #ffb6ff1d, #b444ff14);
+  svg {
+    color: #0f0517a3;
+  }
 }
 
 .btn-toggle.goDark {

@@ -1,16 +1,24 @@
 import Home from "./pages/Home";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Header from "./components/Header";
 import ThemeContextProvider from "./contexts/ThemeContext";
 import BtnToggle from "./components/BtnToggle";
+import { Suspense } from 'react';
+import i18next from "i18next";
+import { initReactI18next } from "react-i18next";
+import Backend from 'i18next-http-backend';
 
-
+i18next.use(initReactI18next).use(Backend).init({
+  backend: {
+    loadPath: './translations/{{ lng }}/translations.json'
+  },
+  lng: "en",
+  fallbackLng: "en",
+})
 
 function App() {
-
-
   return (
     <div>
+      <Suspense fallback={null}>
       <ThemeContextProvider>
         <BtnToggle />
         <BrowserRouter>
@@ -19,7 +27,8 @@ function App() {
           </Routes>
         </BrowserRouter>
       </ThemeContextProvider>
-    </div>
+    </Suspense>
+    </div >
   );
 }
 

@@ -1,0 +1,26 @@
+{
+    "home": "HOME",
+    "projects": "PROJECTS",
+    "presentation": {
+      "title": "HI MY NAME IS",
+      "description": "Im a full-stack dev",
+      "description2": "& designer in Paris",
+      "my-description": "I like to build amazing UI/UX experiences for humans 🚀",
+      "my-description2": "Currently I am working on a mission for a large railway company in Paris on Angular technology with TypeScript 💻"
+    },
+
+    "stack-title": "Technicals skills",
+    "stack-description": "List of technological tools used to develop and operate a program.",
+    "stack-mouse": "mouse over the logo to see the name",
+
+    "myprojects-title": "My projects",
+    "myprojects-description": "I present to you here the different projects that I have been able to carry out.",
+    "myprojects-mouse": "mouse over the card to access the back of it",
+
+    "contact-description": "For any project contact me on this contact form to discuss it over a coffee ☕ ",
+    "contact-description2": "or other if you don't like 😁",
+    "contact-name": "Name",
+    "contact-email": "Email",
+    "contact-message": "Message",
+    "contact-button": "Send message"
+}

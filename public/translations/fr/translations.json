@@ -1,0 +1,27 @@
+{
+    "home": "ACCUEIL",
+    "projects": "PROJETS",
+    
+    "presentation": {
+      "title": "JE M'APPELLE",
+      "description": "Je suis développeur full-stack",
+      "description2": "& designer à Paris",
+      "my-description": "J'aime créer des expériences incroyables UI/UX pour les clients 🚀",
+      "my-description2": "Actuellement je travaille sur un projet pour une grande compagnie ferroviaire à Paris sur la technologie Angular avec TypeScript 💻"
+    },
+
+    "stack-title": "Compétences techniques",
+    "stack-description": "Liste des outils technologiques utilisés pour développer et faire fonctionner un programme.",
+    "stack-mouse": "passe la souris sur le logo pour voir le nom",
+
+    "myprojects-title": "Mes projets",
+    "myprojects-description": "Je présente ici les différents projets que j'ai pu réaliser.",
+    "myprojects-mouse": "Passe la souris sur la carte pour accéder au dos de celle-ci",
+
+    "contact-description": "Pour tout projet contactez moi sur ce formulaire de contact pour en discuter autour d'un café ☕ ",
+    "contact-description2": "ou autre si vous n'aimez pas 😁",
+    "contact-name": "Votre nom/prénom",
+    "contact-email": "Votre email",
+    "contact-message": "Votre message",
+    "contact-button": "Envoyer le message"
+}

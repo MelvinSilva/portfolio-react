@@ -1,16 +1,20 @@
 import React from 'react';
 import CardStack from './CardStack';
-import { stackData } from './data'
+import { stackData } from './data';
+import { useTranslation } from "react-i18next";
 
 const MyStack = () => {
+
+    const { t } = useTranslation();
+
     return (
         <div className="stack">
             <div class="anchor" id="stack"></div>
-            <h1>Stack</h1>
+            <h1>{t('stack-title')}</h1>
             <div class="geeks"></div>
-            <p className='presentation-stack'>My technical skills
+            <p className='presentation-stack'>{t('stack-description')}
             <br/>
-            &#40;pass the mouse over the logo if you don't recognize it 😉&#41;</p>
+            &#40;{t('stack-mouse')} 😉&#41;</p>
             <div className='wrapper-stack'>{stackData.map(stack => (
                 <CardStack key={stack.id} stackData={stack} />
             ))}

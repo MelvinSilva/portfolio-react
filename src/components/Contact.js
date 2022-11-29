@@ -1,7 +1,12 @@
 import React from 'react';
 import emailjs from '@emailjs/browser';
+import { useTranslation } from "react-i18next";
+
 
 const Contact = () => {
+
+    const { t } = useTranslation();
+
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -20,13 +25,13 @@ const Contact = () => {
             <div class="anchor" id="contact"></div>
             <h1>Contact</h1>
             <div class="geeks"></div>
-            <p className='infos'>For any project contact me by email on this contact form to discuss over a coffee ☕ 
-<strike>or else if you don't like 😁</strike></p>
+            <p className='infos'>{t('contact-description')}
+                <strike>{t('contact-description2')}</strike></p>
             <form onSubmit={sendEmail}>
-                <input placeholder="Name" type="text" name="user_name" required />
-                <input placeholder="Email" type="email" name="user_email" required />
-                <textarea placeholder="Your message" name="message" required />
-                <button type="submit">Send message</button>
+                <input placeholder={t('contact-name')} type="text" name="user_name" required />
+                <input placeholder={t('contact-email')} type="email" name="user_email" required />
+                <textarea placeholder={t('contact-message')} name="message" required />
+                <button type="submit">{t('contact-button')}</button>
             </form>
         </div>
     );

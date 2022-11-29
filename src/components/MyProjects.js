@@ -16,8 +16,7 @@ const MyProjects = () => {
                 <h1>{t('myprojects-title')}</h1>
             </div>
             <div className="geeks"></div>
-            <p className='presentation-project'>{t('myprojects-description')} <br />
-            &#40;Pass the mouse over the card to access the back of it&#41;</p>
+            <p className='presentation-project'>{t('myprojects-description')}</p>
             <AnimationOnScroll animateIn="animate__fadeIn">
                 <div className='my-projects'>
                     {data.map(project => (

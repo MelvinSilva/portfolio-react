@@ -25,7 +25,6 @@ const Presentation = () => {
                 </AnimationOnScroll>
                 <AnimationOnScroll delay={200} animateIn="animate__fadeInLeftBig">
                     <p><span>{t('presentation.description2')}</span> 🇫🇷 </p>
-                    <IoDesktopOutline /> <IoColorPaletteOutline />
                 </AnimationOnScroll>
                 <p className='description'>{t('presentation.my-description')} <br />{t('presentation.my-description2')}</p>
                 <svg class="arrows">

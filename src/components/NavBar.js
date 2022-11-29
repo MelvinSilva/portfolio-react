@@ -25,19 +25,21 @@ const Navbar = () => {
                 <a href="#stack"><li>STACK</li></a>
                 <a href="#mes-projets"><li>{t('projects')}</li></a>
                 <a href="#contact"><li>CONTACT</li></a>
-                <select onChange={handleLangChange}>
-                    <option value="en" selected>EN 🇬🇧</option>
-                    <option value="fr">FR 🇫🇷</option>
-                </select>
             </ul>
-            {burger && <ul className="navbar-burger" onClick={handleClick}>
-                <a href="#home"><li>HOME</li></a>
-                <a href="#stack"><li>STACK</li></a>
-                <a href="#mes-projets"><li>PROJECTS</li></a>
-                <a href="#contact"><li>CONTACT</li></a>
-            </ul>}
+            {burger &&
+                <ul className="navbar-burger" onClick={handleClick}>
+                    <a href="#home"><li>HOME</li></a>
+                    <a href="#stack"><li>STACK</li></a>
+                    <a href="#mes-projets"><li>PROJECTS</li></a>
+                    <a href="#contact"><li>CONTACT</li></a>
+                </ul>
+            }
             <div className="navbar-burger"><Hamburger toggled={burger} toggle={setBurger} />
             </div>
+            <select onChange={handleLangChange}>
+                <option value="en" selected>EN 🇬🇧</option>
+                <option value="fr">FR 🇫🇷</option>
+            </select>
         </div>
     );
 };

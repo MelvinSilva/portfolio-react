@@ -5,7 +5,7 @@
     "contact": "CONTACT",
     "presentation": {
       "title": "HI MY NAME IS",
-      "description": "Im a full-stack dev",
+      "description": "Full-stack developer",
       "description2": "& designer in Paris",
       "my-description": "I like to put the customer at the heart of the project 🚀",
       "my-description2": "Currently I am working on a mission for a large railway company in Paris on Angular technology with TypeScript 💻"
@@ -13,7 +13,6 @@
 
     "stack-title": "Technicals skills",
     "stack-description": "List of technological tools used to develop and operate a program.",
-    "stack-mouse": "mouse over the logo to see the name",
 
     "myprojects-title": "My projects",
     "myprojects-description": "I present to you here the different projects that I have been able to carry out.",

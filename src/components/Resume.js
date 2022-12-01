@@ -12,7 +12,7 @@ const Resume = () => {
 
     return (
         <div className='resume'>
-            <input type="button" value="My CV" onClick={togglePopup} />
+            <input type="button" value="Resume 📝" onClick={togglePopup} className="fa fa-file"/>
             {isOpen &&
                 <Popup
                     content={<>

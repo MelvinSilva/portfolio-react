@@ -3,8 +3,8 @@
 import React from 'react';
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import { IoColorPaletteOutline, IoDesktopOutline } from "react-icons/io5";
 import { useTranslation } from "react-i18next";
+import Resume from './Resume';
 
 
 const Presentation = () => {
@@ -20,13 +20,23 @@ const Presentation = () => {
                     <p><span>Melvin Silva</span></p>
                 </AnimationOnScroll>
                 <br />
-                <AnimationOnScroll delay={300} animateIn="animate__fadeInLeftBig">
+                <AnimationOnScroll animateIn="animate__fadeInLeftBig">
                     <p><span>{t('presentation.description')}</span></p>
                 </AnimationOnScroll>
-                <AnimationOnScroll delay={200} animateIn="animate__fadeInLeftBig">
+                <AnimationOnScroll delay={100} animateIn="animate__fadeInLeftBig">
                     <p><span>{t('presentation.description2')}</span> 🇫🇷 </p>
                 </AnimationOnScroll>
                 <p className='description'>{t('presentation.my-description')} <br />{t('presentation.my-description2')}</p>
+                <div class="footer-social-icons">
+                    <h4 class="text-follow">Follow me on</h4>
+                    <ul class="social-icons">
+                        <li><a href="" className="social-icon"> <i className="fa fa-twitter"></i></a></li>
+                        <li><a href="" className="social-icon"> <i className="fa fa-github"></i></a></li>
+                        <li><a href="" className="social-icon"> <i className="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+
+                <Resume />
                 <svg class="arrows">
                     <path class="a1" d="M0 0 L30 32 L60 0"></path>
                     <path class="a2" d="M0 20 L30 52 L60 20"></path>

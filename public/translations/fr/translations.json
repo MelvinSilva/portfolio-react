@@ -8,8 +8,8 @@
       "title": "JE M'APPELLE",
       "description": "Développeur full-stack",
       "description2": "& designer à Paris",
-      "my-description": "J'aime mettre le client au coeur du projet 🚀",
-      "my-description2": "Je travaille actuellement sur un projet pour une grande compagnie ferroviaire à Paris sur la technologie Angular avec TypeScript 💻"
+      "my-description": "Je suis développeur full stack agé de 31 ans ayant 1 an d'experience. Je me veux d'être le plus créatif possible en utilisant mon imagination et mes compétences dans un projet. Mon but est de rendre un site web le plus jolie possible et adaptable en misant tout sur l'expèrience utilisateur. 🚀",
+      "my-description2": ""
     },
 
     "stack-title": "Compétences techniques",
@@ -23,5 +23,7 @@
     "contact-name": "Votre nom/prénom",
     "contact-email": "Votre email",
     "contact-message": "Votre message",
-    "contact-button": "Envoyer le message"
+    "contact-button": "Envoyer le message",
+
+    "resume-text": "Voir mon CV 📝"
 }

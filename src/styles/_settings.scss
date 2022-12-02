@@ -78,7 +78,7 @@ body {
   flex-direction: column;
   margin: 10px auto;
 
-  input {
+  .resume-cv {
     height: 50px;
     width: 245px;
     border: none;
@@ -87,7 +87,8 @@ body {
     transition: 0.5s;
     border-radius: 5px;
     font-family: "regular";
-    font-size: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
     margin-bottom: 30px;
     cursor: pointer;
     &:hover {
@@ -168,7 +169,13 @@ body {
 
   .text-follow {
     font-size: 15px;
-    font-family: 'regular';
+    font-family: "regular";
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-position: 50% 0;
+    background-image: linear-gradient(90deg, #ffb6ff, #b344ff);
+    letter-spacing: 3px;
   }
 
   a {
@@ -186,6 +193,17 @@ body {
   }
   .social-icon {
     color: #fff;
+
+    .fa-github {
+      padding: 10px 25px;
+      transition: 0.5s;
+      background-color: #322f3096;
+      border-radius: 5px;
+      &:hover {
+        background-color: #fdfdfd;
+        color: black;
+      }
+    }
   }
   ul.social-icons {
     margin-top: 10px;
@@ -201,10 +219,6 @@ body {
   }
   .fa-twitter {
     padding: 10px 25px;
-    -o-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
     background-color: #322f3096;
     border-radius: 5px;
@@ -213,16 +227,6 @@ body {
     background-color: #00aced;
   }
 }
-.fa-github {
-  padding: 10px 25px;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background-color: #322f3096;
-  border-radius: 5px;
-}
 .fa-github:hover {
   background-color: #fdfdfd;
   color: black;
@@ -230,10 +234,6 @@ body {
 .fa-linkedin {
   border-radius: 5px;
   padding: 10px 25px;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   background-color: #322f3096;
 }

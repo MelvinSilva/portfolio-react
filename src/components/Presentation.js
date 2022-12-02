@@ -27,9 +27,9 @@ const Presentation = () => {
                     <p><span>{t('presentation.description2')}</span> 🇫🇷 </p>
                 </AnimationOnScroll>
                 <p className='description'>{t('presentation.my-description')} <br />{t('presentation.my-description2')}</p>
-                <div class="footer-social-icons">
-                    <h4 class="text-follow">Follow me on</h4>
-                    <ul class="social-icons">
+                <div className="footer-social-icons">
+                    <p className="text-follow">FOLLOW ME ON</p>
+                    <ul className="social-icons">
                         <li><a href="" className="social-icon"> <i className="fa fa-twitter"></i></a></li>
                         <li><a href="" className="social-icon"> <i className="fa fa-github"></i></a></li>
                         <li><a href="" className="social-icon"> <i className="fa fa-linkedin"></i></a></li>

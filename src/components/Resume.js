@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import Popup from './Popup';
+import { useTranslation } from "react-i18next";
 
 
 const Resume = () => {
 
+    const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
 
     const togglePopup = () => {
@@ -12,7 +14,7 @@ const Resume = () => {
 
     return (
         <div className='resume'>
-            <input type="button" value="Resume 📝" onClick={togglePopup} className="fa fa-file"/>
+            <input type="button" value={t('resume-text')} onClick={togglePopup} className="resume-cv"/>
             {isOpen &&
                 <Popup
                     content={<>

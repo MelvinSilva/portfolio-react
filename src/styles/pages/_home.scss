@@ -7,7 +7,7 @@
 }
 
 .home.light {
-    background-color: #fbf4ff;
+    background-color: #fffeff;
     color: #0f0517;
     transition: all 0.5s ease-in-out;
 
@@ -23,7 +23,7 @@
 
     input,
     textarea {
-        background: #f6eaff;
+        background: linear-gradient(180deg, #b444ff0e, #13061c07);
         border: 1px solid #0f0517;
         color: #0f0517;
         &::placeholder {
@@ -73,7 +73,7 @@
     }
 
     .header {
-        background: linear-gradient(45deg, #b444ff0e, #13061c10);
+        background: linear-gradient(45deg, #b444ff05, #13061c05);
     }
 
     .my-profile {

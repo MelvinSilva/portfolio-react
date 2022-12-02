@@ -13,12 +13,11 @@ const CardProject = ({ data }) => {
                             <div className="card-front">
                                 <div className="card-content">
                                     <h2>{data.title}</h2>
-                                    <p>{data.content}</p>
+                                    {data.image ? <img className="image-front" src={data.image} alt='img-project' /> : <img src="myprofile.jpg" alt='img-project' />}
                                     <div className='langage'>
                                         {data.langage.map((lang) =>
                                             <h5><span>{lang}</span></h5>)}
                                     </div>
-                                    <IoArrowUndoCircleOutline />
                                     <IoArrowRedoCircleOutline />
                                 </div>
                             </div>

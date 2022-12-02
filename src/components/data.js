@@ -2,7 +2,7 @@ export const data = [
     {
         id: 1,
         title: "Mood Moove",
-        content: "Project aiming to find events in the city of Paris",
+        content: "",
         image: "moodmood.png",
         langage: ["JS", "REACT", "SCSS", "API"],
         website: "https://mood-moove.vercel.app/",
@@ -12,7 +12,7 @@ export const data = [
     {
         id: 2,
         title: "Wiki-Player",
-        content: "Project to find a professional athlete",
+        content: "",
         image: "wikiplayer.png",
         langage: ["JS", "REACT", "SCSS", "API"],
         website: "https://wiki-player.vercel.app/",
@@ -21,7 +21,7 @@ export const data = [
     {
         id: 3,
         title: "Blog Crypto",
-        content: "School project website responsive type blog crytpo",
+        content: "",
         image: "blogcrypto.png",
         langage: ["HTML", "CSS", "JS"],
         website: "https://blog-crypto.vercel.app",
@@ -30,7 +30,7 @@ export const data = [
     {
         id: 4,
         title: "TicTacToe PSG",
-        content: "Tic Tac Toe game in Paris Saint Germain colors",
+        content: "",
         image: "tictactoepsg.png",
         langage: ["JS", "REACT", "SCSS"],
         website: "https://melvinsilva.github.io/tictactoe-psg/",
@@ -39,7 +39,7 @@ export const data = [
     {
         id: 5,
         title: "Gestion Products",
-        content: "Product management to practice Angular and Java",
+        content: "",
         image: "https://i.imgur.com/example.jpg",
         langage: ["ANGULAR", "SPRING BOOT", "MYSQL"],
         website: "",
@@ -49,8 +49,8 @@ export const data = [
     {
         id: 6,
         title: "Destination RHR",
-        content: "End of training project for a railway company",
-        image: "",
+        content: "",
+        image: "https://i.imgur.com/example.jpg",
         langage: ["JS", "REACT", "SCSS", "NODE.JS"],
         website: "https://destination-rhr-2.vercel.app/",
         info: "Sorry, no database working.",

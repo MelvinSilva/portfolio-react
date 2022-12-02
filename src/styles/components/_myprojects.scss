@@ -67,8 +67,8 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 30px;
-    box-shadow: 3px 3px 0px 0px #B44FF3, 6px 6px 0px 0px #b44ff387, 9px 9px 0px 0px #b44ff345, 12px 12px 0px 0px #b44ff326,
-        15px 15px 0px 0px #b44ff30d, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 0px 0px #B44FF3, 4px 4px 0px 0px #b44ff387, 6px 6px 0px 0px #b44ff345, 8px 8px 0px 0px #b44ff326,
+        10px 10px 0px 0px #b44ff30d, 3px 3px 10px 2px rgba(0, 0, 0, 0);
 }
 
 .card-front {
@@ -77,6 +77,17 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+}
+
+.card-content {
+    svg {
+        width: 50px;
+        height: 40px;
+        position: fixed;
+        top: 322px;
+        right: 0px;
+        border-bottom-right-radius: 30px;
+    }
 }
 
 .card-front:before {
@@ -90,8 +101,8 @@
 
 .card-front .card-content {
     z-index: 1;
-    color: #6f4091c1;
-    font-family: "bold";
+    color: rgba(255, 255, 255, 0.750);
+    font-family: "regular";
     font-size: 20px;
     letter-spacing: 2px;
     svg {
@@ -101,17 +112,21 @@
     }
 }
 
-.card-front .card-content p {
-    font-family: "regular";
-    color: rgba(255, 255, 255, 0.750);
-    font-size: 18px;
-    letter-spacing: 1px;
-    padding: 10px;
+.card-front .card-content img {
+    margin-top: 10px;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    background-size: contain;
+}
+
+.image-front {
+    opacity: 0.6;
 }
 
 .langage {
     display: flex;
-    margin-top: 60px;
+    margin-top: 50px;
     justify-content: center;
 }
 
@@ -120,7 +135,7 @@
     color: white;
     letter-spacing: 2px;
     font-size: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
     padding: 3px;
     span {
         color: #ffb6ff;

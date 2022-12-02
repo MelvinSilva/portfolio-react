@@ -30,9 +30,9 @@ const Presentation = () => {
                 <div className="footer-social-icons">
                     <p className="text-follow">FOLLOW ME ON</p>
                     <ul className="social-icons">
-                        <li><a href="" className="social-icon"> <i className="fa fa-twitter"></i></a></li>
-                        <li><a href="" className="social-icon"> <i className="fa fa-github"></i></a></li>
-                        <li><a href="" className="social-icon"> <i className="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/RealBDSPROD" className="social-icon" target="_blank" rel="noreferrer"> <i className="fa fa-twitter"></i></a></li>
+                        <li><a href="https://github.com/MelvinSilva" className="social-icon" target="_blank" rel="noreferrer"> <i className="fa fa-github"></i></a></li>
+                        <li><a href="https://fr.linkedin.com/in/melvin-silva-447366192" target="_blank" rel="noreferrer" className="social-icon"> <i className="fa fa-linkedin"></i></a></li>
                     </ul>
                 </div>
 

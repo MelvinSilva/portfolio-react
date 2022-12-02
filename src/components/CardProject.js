@@ -28,7 +28,7 @@ const CardProject = ({ data }) => {
                                 <p><i>{data.info}</i></p>
                                 <div className="card-icons">
                                     {data.website ? <a href={data.website} target="_blank" rel="noreferrer">
-                                        <i className="fas fa-link"></i>
+                                        <i className="fa fa-external-link"></i>
                                     </a> : " "}
                                     {data.github ? <a href={data.github} target="_blank" rel="noreferrer">
                                         <i className="fab fa-github">{data.link}</i>

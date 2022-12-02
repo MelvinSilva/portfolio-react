@@ -101,7 +101,7 @@
 
 .card-front .card-content {
     z-index: 1;
-    color: rgba(255, 255, 255, 0.750);
+    color: #6f4091;
     font-family: "regular";
     font-size: 20px;
     letter-spacing: 2px;
@@ -173,11 +173,11 @@
 }
 
 .card-back .card-icons a {
-    font-size: 18px;
+    font-size: 24px;
     color: black;
     background: rgb(255, 255, 255);
-    width: 42px;
-    height: 42px;
+    width: 62px;
+    height: 62px;
     border-radius: 100%;
     margin: 8px;
     display: flex;

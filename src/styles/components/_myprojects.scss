@@ -41,7 +41,7 @@
 .card {
     padding: 20px;
     margin: auto;
-    width: 320px;
+    width: 300px;
     height: 400px;
     perspective: 1000px;
     text-align: center;
@@ -67,8 +67,8 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 30px;
-    box-shadow: 2px 2px 0px 0px #B44FF3, 4px 4px 0px 0px #b44ff387, 6px 6px 0px 0px #b44ff345, 8px 8px 0px 0px #b44ff326,
-        10px 10px 0px 0px #b44ff30d, 3px 3px 10px 2px rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 0px 0px #b44ff38e, 4px 4px 0px 0px #b44ff359, 6px 6px 0px 0px #b44ff327, 8px 8px 0px 0px #b44ff30c,
+        10px 10px 0px 0px #b44ff305, 3px 3px 10px 2px rgba(0, 0, 0, 0);
 }
 
 .card-front {
@@ -101,9 +101,9 @@
 
 .card-front .card-content {
     z-index: 1;
-    color: #6f4091;
+    color: rgba(255, 255, 255, 0.805);
     font-family: "regular";
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 2px;
     svg {
         font-size: 40px;
@@ -120,9 +120,9 @@
     background-size: contain;
 }
 
-.image-front {
-    opacity: 0.4;
-}
+// .image-front {
+    // filter: brightness(0.5);
+// }
 
 .langage {
     display: flex;
@@ -138,7 +138,7 @@
     margin-bottom: 2px;
     padding: 3px;
     span {
-        color: #ffb6ff;
+        color: rgba(255, 255, 255, 0.917);
         border: 2px solid rgb(255, 255, 255);
         border-radius: 90px;
         padding: 8px;

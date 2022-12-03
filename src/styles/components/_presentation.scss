@@ -198,7 +198,7 @@
             padding: 10px 35px;
             transition: 0.5s;
             color: rgb(0, 0, 0);
-            background: linear-gradient(180deg, #b444ff0e, #13061c07);
+            background: rgb(245, 245, 245);
             @media screen and(min-width:700px) {
                 padding: 10px 90px;
             }
@@ -209,13 +209,13 @@
     }
     .fa-twitter {
         color: rgb(0, 0, 0);
-        background: linear-gradient(180deg, #b444ff0e, #13061c07);
+        background: rgb(245, 245, 245);
     }
 
     .social-icon {
         .fa-github {
             color: rgb(0, 0, 0);
-            background: linear-gradient(180deg, #b444ff0e, #13061c07);
+            background: rgb(245, 245, 245);
             &:hover {
                 background-color: #000000;
                 color: rgb(255, 255, 255);

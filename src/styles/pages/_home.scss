@@ -23,7 +23,7 @@
 
     input,
     textarea {
-        background: linear-gradient(180deg, #b444ff0e, #13061c07);
+        background: rgb(245, 245, 245);
         color: #0f0517;
         &::placeholder {
             color: #0f051773;
@@ -31,7 +31,7 @@
     }
 
     .card-front:before {
-        background: linear-gradient(180deg, #b444ff0e, #13061c07);
+        background: rgb(245, 245, 245);
     }
 
     .card-front .card-content p {
@@ -40,18 +40,18 @@
 
     .card-front .card-content h5 {
         span {
-            color: #0f0517a3;
-            border: 2px solid #6f40919d;
+            color: #000000b6;
+            border: 2px solid #000000b6;;
         }
     }
     .card-front .card-content {
-        color: #6f40919d;
+        color: #000000b6;
         svg {
-            color: #0f0517a3;
+            color: #000000b6;;
         }
     }
     .card-back {
-        background: linear-gradient(180deg, #b444ff0e, #13061c07);
+        background: rgb(245, 245, 245);
     }
 
     .footer.light p {
@@ -64,11 +64,16 @@
     }
 
     .card-stack {
-        background: linear-gradient(45deg, #b444ff1e, #13061c21);
+        background: rgb(245, 245, 245);
     
         &:hover {
-            background: linear-gradient(45deg, #b444ff1e, #13061c21);
+            background: rgb(245, 245, 245);
         }
+    }
+
+    .card-back .card-icons a {
+        color: rgb(255, 255, 255);
+        background: rgb(0, 0, 0);
     }
 
     .header {
@@ -85,7 +90,7 @@
     }
 
     .navbar-burger {
-        background-color: #fbf4ffd5;
+        background: rgb(245, 245, 245);
 
         .hamburger-react {
             color: #0f0517a3;

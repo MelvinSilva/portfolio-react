@@ -15,8 +15,10 @@ const MyProfil = () => {
             </div>
             <h3><span>M</span>ELVIN <br/><span>S</span>ILVA</h3>
             <select onChange={handleLangChange}>
-                <option value="en" selected>EN 🇬🇧</option>
-                <option value="fr">FR 🇫🇷</option>
+                <option value="en" selected>🇬🇧</option>
+                <option value="fr">🇫🇷</option>
+                <option value="pt">🇵🇹</option>
+                <option value="es">🇪🇸</option>
             </select>
         </div>
     );

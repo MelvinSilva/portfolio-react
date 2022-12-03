@@ -55,6 +55,15 @@ export const data = [
         website: "https://destination-rhr-2.vercel.app/",
         info: "Sorry, no database working.",
     },
+    {
+        id: 7,
+        title: "LM - Expertise & Consulting",
+        content: "",
+        image: "lmexpertise.png",
+        langage: ["HTML", "CSS", "JS"],
+        website: "",
+        info: "",
+    },
 ]
 
 export const stackData = [

@@ -121,7 +121,7 @@
 }
 
 .image-front {
-    opacity: 0.6;
+    opacity: 0.4;
 }
 
 .langage {
@@ -155,11 +155,10 @@
 }
 
 .card-back .card-image {
-    width: 220px;
-    height: 220px;
-    border: solid 2px #ffffff;
+    width: 280px;
+    height: 180px;
     margin: 0 auto;
-    border-radius: 100%;
+    border-radius: 20px;
 }
 
 .card-back p {

@@ -80,20 +80,25 @@ body {
 
   .resume-cv {
     height: 50px;
-    width: 245px;
+    width: 305px;
     border: none;
-    background-color: #322f3096;
+    background: linear-gradient(18deg, #b444ff31, #13061c);
     color: white;
     transition: 0.5s;
     border-radius: 5px;
     font-family: "regular";
     font-size: 15px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-bottom: 30px;
     cursor: pointer;
     &:hover {
-      background-color: white;
-      color: black;
+      background-color: rgba(255, 255, 255, 0.73);
+    }
+    @media screen and(min-width:700px) {
+      width: 640px;
+    }
+    @media screen and(min-width:950px) {
+      width: 880px;
     }
   }
 }
@@ -159,84 +164,4 @@ body {
   @media screen and(max-width:540px) {
     right: calc(10% - 32px);
   }
-}
-
-.footer-social-icons {
-  width: 350px;
-  display: block;
-  margin: 0 auto;
-  color: white;
-
-  .text-follow {
-    font-size: 15px;
-    font-family: "regular";
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-position: 50% 0;
-    background-image: linear-gradient(90deg, #ffb6ff, #b344ff);
-    letter-spacing: 3px;
-  }
-
-  a {
-    text-decoration: none;
-    color: #fff;
-  }
-  p > a:hover {
-    color: #d9d9d9;
-    text-decoration: underline;
-  }
-
-  ul {
-    padding: 0;
-    list-style: none;
-  }
-  .social-icon {
-    color: #fff;
-
-    .fa-github {
-      padding: 10px 25px;
-      transition: 0.5s;
-      background-color: #322f3096;
-      border-radius: 5px;
-      &:hover {
-        background-color: #fdfdfd;
-        color: black;
-      }
-    }
-  }
-  ul.social-icons {
-    margin-top: 10px;
-  }
-  .social-icons li {
-    vertical-align: top;
-    display: inline;
-    height: 100px;
-  }
-  .social-icons a {
-    color: #fff;
-    text-decoration: none;
-  }
-  .fa-twitter {
-    padding: 10px 25px;
-    transition: 0.5s;
-    background-color: #322f3096;
-    border-radius: 5px;
-  }
-  .fa-twitter:hover {
-    background-color: #00aced;
-  }
-}
-.fa-github:hover {
-  background-color: #fdfdfd;
-  color: black;
-}
-.fa-linkedin {
-  border-radius: 5px;
-  padding: 10px 25px;
-  transition: 0.5s;
-  background-color: #322f3096;
-}
-.fa-linkedin:hover {
-  background-color: #0073a4;
 }

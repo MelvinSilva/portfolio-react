@@ -1,30 +1,32 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/iframe-has-title */
-import React from 'react';
+import React, { useContext } from 'react';
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { useTranslation } from "react-i18next";
+import { ThemeContext } from '../contexts/ThemeContext';
 import Resume from './Resume';
 
 
 const Presentation = () => {
 
+    const {theme} = useContext(ThemeContext);
     const { t } = useTranslation();
 
     return (
         <div>
             <div class="anchor"></div>
-            <div className='presentation'>
+            <div className={theme ? 'presentation' : 'presentation light'}>
                 <p className='name'>{t('presentation.title')}</p>
                 <AnimationOnScroll delay={500} animateIn="animate__tada">
-                    <p><span>Melvin Silva</span></p>
+                    <p className='title-presentation'><span>Melvin Silva</span></p>
                 </AnimationOnScroll>
                 <br />
                 <AnimationOnScroll animateIn="animate__fadeInLeftBig">
-                    <p><span>{t('presentation.description')}</span></p>
+                    <p className='title-presentation'><span>{t('presentation.description')}</span></p>
                 </AnimationOnScroll>
                 <AnimationOnScroll delay={100} animateIn="animate__fadeInLeftBig">
-                    <p><span>{t('presentation.description2')}</span> 🇫🇷 </p>
+                    <p className='title-presentation'><span>{t('presentation.description2')}</span> 🇫🇷 </p>
                 </AnimationOnScroll>
                 <p className='description'>{t('presentation.my-description')} <br />{t('presentation.my-description2')}</p>
                 <div className="footer-social-icons">

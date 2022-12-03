@@ -2,8 +2,6 @@
 import React, { useState } from "react";
 import { Spin as Hamburger } from 'hamburger-react';
 import { useTranslation } from "react-i18next";
-import i18next from "i18next";
-import { AiOutlineHome } from "react-icons/ai";
 
 const Navbar = () => {
 
@@ -12,10 +10,6 @@ const Navbar = () => {
     const [burger, setBurger] = useState(false)
     const handleClick = () => {
         setBurger(!burger)
-    }
-
-    const handleLangChange = (e) => {
-        i18next.changeLanguage(e.target.value)
     }
 
     return (

@@ -7,15 +7,6 @@
     justify-content: center;
     z-index: -10;
 
-    svg {
-        font-size: 20px;
-        padding: 5px;
-        color: rgba(255, 255, 255, 0.693);
-        @media screen and(max-width:540px) {
-            font-size: 25px;
-        }
-    }
-
     .name {
         font-family: "regular";
         font-size: 20px;
@@ -27,7 +18,7 @@
         }
     }
 
-    p {
+    .title-presentation {
         font-weight: 600;
         font-size: 80px;
         text-align: center;
@@ -62,7 +53,7 @@
             margin: 35px 25px;
             font-size: 15px;
             line-height: 25px;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
         }
     }
 
@@ -104,5 +95,144 @@
 
     .arrows path.a3 {
         animation-delay: 0s;
+    }
+    .footer-social-icons {
+        display: block;
+        margin: 0 2px;
+        color: white;
+
+        .text-follow {
+            font-size: 10px;
+            font-family: "bold";
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-position: 50% 0;
+            background-image: linear-gradient(45deg, #ffb6ff, #b344ff);
+            letter-spacing: 3px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        p > a:hover {
+            color: #d9d9d9;
+            text-decoration: underline;
+        }
+
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+        .social-icon {
+            .fa-github {
+                padding: 10px 35px;
+                transition: 0.5s;
+                border-radius: 5px;
+                background: linear-gradient(18deg, #b444ff31, #13061c);
+                &:hover {
+                    background-color: #fdfdfd90;
+                    color: black;
+                }
+                @media screen and(min-width:700px) {
+                    padding: 10px 90px;
+                }
+                @media screen and(min-width:950px) {
+                    padding: 10px 130px;
+                }
+            }
+        }
+        ul.social-icons {
+            margin-top: 10px;
+        }
+        .social-icons li {
+            vertical-align: top;
+            display: inline;
+            height: 100px;
+        }
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .fa-twitter {
+            padding: 10px 35px;
+            transition: 0.5s;
+            border-radius: 5px;
+            color: white;
+            background: linear-gradient(18deg, #b444ff31, #13061c);
+            @media screen and(min-width:700px) {
+                padding: 10px 90px;
+            }
+            @media screen and(min-width:950px) {
+                padding: 10px 130px;
+            }
+        }
+        .fa-twitter:hover {
+            background-color: #00aced;
+        }
+        .fa-linkedin {
+            border-radius: 5px;
+            padding: 10px 35px;
+            transition: 0.5s;
+            color: white;
+            background: linear-gradient(18deg, #b444ff31, #13061c);
+            @media screen and(min-width:700px) {
+                padding: 10px 90px;
+            }
+            @media screen and(min-width:950px) {
+                padding: 10px 130px;
+            }
+        }
+        .fa-linkedin:hover {
+            background-color: #0073a4;
+        }
+    }
+}
+
+////////////////////////////////// LIGHT MODE //////////////////////////////////
+.presentation.light {
+    .footer-social-icons {
+        .fa-linkedin {
+            border-radius: 5px;
+            padding: 10px 35px;
+            transition: 0.5s;
+            color: rgb(0, 0, 0);
+            background: linear-gradient(180deg, #b444ff0e, #13061c07);
+            @media screen and(min-width:700px) {
+                padding: 10px 90px;
+            }
+            @media screen and(min-width:950px) {
+                padding: 10px 130px;
+            }
+        }
+    }
+    .fa-twitter {
+        color: rgb(0, 0, 0);
+        background: linear-gradient(180deg, #b444ff0e, #13061c07);
+    }
+
+    .social-icon {
+        .fa-github {
+            color: rgb(0, 0, 0);
+            background: linear-gradient(180deg, #b444ff0e, #13061c07);
+            &:hover {
+                background-color: #000000;
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+    .title-presentation {
+        span {
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-position: 50% 0;
+            background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+        }
+    }
+
+    .description {
+        color: #0f0517a3;
     }
 }

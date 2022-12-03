@@ -24,7 +24,6 @@
     input,
     textarea {
         background: linear-gradient(180deg, #b444ff0e, #13061c07);
-        border: 1px solid #0f0517;
         color: #0f0517;
         &::placeholder {
             color: #0f051773;
@@ -101,5 +100,14 @@
             color: #0f0517a3;
         }
     }
+    .fa-linkedin {
+        border-radius: 5px;
+        padding: 10px 35px;
+        transition: 0.5s;
+        color: white;
+      }
+      .fa-linkedin:hover {
+        background-color: #0073a4;
+      }
     
 }

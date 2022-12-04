@@ -18,7 +18,7 @@ const Resume = () => {
             {isOpen &&
                 <Popup
                     content={<>
-                        <img src="cv-melvin.jpg" alt="" />
+                        <img src="cv-melvin.png" alt="" />
                     </>}
                     handleClose={togglePopup}
                 />}

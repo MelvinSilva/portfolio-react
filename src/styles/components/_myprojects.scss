@@ -67,8 +67,8 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 30px;
-    box-shadow: 2px 2px 0px 0px #b44ff38e, 4px 4px 0px 0px #b44ff359, 6px 6px 0px 0px #b44ff327, 8px 8px 0px 0px #b44ff30c,
-        10px 10px 0px 0px #b44ff305, 3px 3px 10px 2px rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 0px 0px #b44ff33e, 4px 4px 0px 0px #b44ff327,
+        6px 6px 0px 0px #b44ff305, 3px 3px 10px 2px rgba(0, 0, 0, 0);
 }
 
 .card-front {
@@ -103,7 +103,7 @@
     z-index: 1;
     color: rgba(255, 255, 255, 0.805);
     font-family: "regular";
-    font-size: 18px;
+    font-size: 12px;
     letter-spacing: 2px;
     svg {
         font-size: 40px;
@@ -179,6 +179,7 @@
     height: 62px;
     border-radius: 100%;
     margin: 8px;
+    margin-top: 25px;
     display: flex;
     align-items: center;
     justify-content: center;

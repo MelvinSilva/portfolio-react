@@ -18,14 +18,14 @@ const Presentation = () => {
             <div class="anchor"></div>
             <div className={theme ? 'presentation' : 'presentation light'}>
                 <p className='name'>{t('presentation.title')}</p>
-                <AnimationOnScroll delay={500} animateIn="animate__tada">
+                <AnimationOnScroll animateIn="animate__tada">
                     <p className='title-presentation'><span>Melvin Silva</span></p>
                 </AnimationOnScroll>
                 <br />
                 <AnimationOnScroll animateIn="animate__fadeInLeftBig">
                     <p className='title-presentation'><span>{t('presentation.description')}</span></p>
                 </AnimationOnScroll>
-                <AnimationOnScroll delay={100} animateIn="animate__fadeInLeftBig">
+                <AnimationOnScroll animateIn="animate__fadeInLeftBig">
                     <p className='title-presentation'><span>{t('presentation.description2')}</span> 🇫🇷 </p>
                 </AnimationOnScroll>
                 <p className='description'>{t('presentation.my-description')} <br />{t('presentation.my-description2')}</p>

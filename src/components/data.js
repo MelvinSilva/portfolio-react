@@ -50,7 +50,7 @@ export const data = [
         id: 6,
         title: "Destination RHR",
         content: "",
-        image: "no-image.png",
+        image: "destination-rhr.png",
         langage: ["JS", "REACT", "SCSS", "NODE.JS"],
         website: "https://destination-rhr-2.vercel.app/",
         info: "Sorry, no database working.",

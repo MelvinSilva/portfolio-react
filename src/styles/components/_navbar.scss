@@ -67,8 +67,9 @@
         .wrapper-social {
             display: flex;
             flex-direction: row;
-            margin-bottom: 200px;
+            margin-bottom: 300px;
             overflow: auto;
+            -webkit-overflow-scrolling: touch;
         }
 
         li {

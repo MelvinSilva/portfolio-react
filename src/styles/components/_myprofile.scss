@@ -39,7 +39,7 @@
             border-radius: 50%;
         }
     }
-    select {
+    .select {
         position: fixed;
         top: 25px;
         margin-left: 210px;
@@ -50,6 +50,7 @@
         height: 25px;
         font-size: 15px;
         background: rgba(255, 255, 255, 0.964);
+        color: black;
 
         @media screen and(max-width:540px) {
             top: 22px;

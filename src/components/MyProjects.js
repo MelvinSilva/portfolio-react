@@ -13,7 +13,7 @@ const MyProjects = () => {
         <div>
             <div className="title">
                 <div className="anchor" id="mes-projets"></div>
-                <h1>{t('myprojects-title')}</h1>
+                <h1 className='project-title'>{t('myprojects-title')}</h1>
             </div>
             <div className="geeks"></div>
             <p className='presentation-project'>{t('myprojects-description')}</p>

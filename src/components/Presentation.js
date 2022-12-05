@@ -10,7 +10,7 @@ import Resume from './Resume';
 
 const Presentation = () => {
 
-    const {theme} = useContext(ThemeContext);
+    const { theme } = useContext(ThemeContext);
     const { t } = useTranslation();
 
     return (
@@ -18,7 +18,21 @@ const Presentation = () => {
             <div class="anchor"></div>
             <div className={theme ? 'presentation' : 'presentation light'}>
                 <p className='name'>{t('presentation.title')}</p>
-                <AnimationOnScroll animateIn="animate__tada">
+                <h1 class="py-2 text-[8vw] text-center sm:text-10xl leading-none select-none tracking-tightest font-extrabold">
+                    <AnimationOnScroll animateIn="animate__tada"><span data-content="Melvin Silva" class="relative block before:content-[attr(data-content)] before:w-full before:z-0 before:block before:absolute before:top-0 before:px-0 before:bottom-0 before:left-0 before:text-center before:text-grey before:animate-gradient-background-1">
+                        <span class="px-2 text-transparent bg-clip-text bg-gradient-to-r from-gradient-1-start to-gradient-1-end animate-gradient-foreground-1">Melvin Silva</span>
+                    </span>
+                    </AnimationOnScroll>
+                    <AnimationOnScroll animateIn="animate__fadeInLeftBig"><span data-content={t('presentation.description')} class="relative block before:content-[attr(data-content)] before:w-full before:z-0 before:block before:absolute before:top-0 before:px-0 before:bottom-0 before:left-0 before:text-center before:text-grey before:animate-gradient-background-2">
+                        <span class="px-2 text-transparent bg-clip-text bg-gradient-to-r from-gradient-2-start to-gradient-2-end animate-gradient-foreground-2">{t('presentation.description')}</span>
+                    </span>
+                    </AnimationOnScroll>
+                    <AnimationOnScroll animateIn="animate__fadeInRightBig"><span data-content={t('presentation.description2')} class="relative block before:content-[attr(data-content)] before:w-full before:z-0 before:block before:absolute before:top-0 before:px-0 before:bottom-0 before:left-0 before:text-center before:text-grey before:animate-gradient-background-3">
+                        <span class="px-2 text-transparent bg-clip-text bg-gradient-to-r from-gradient-3-start to-gradient-3-end animate-gradient-foreground-3">{t('presentation.description2')}</span>
+                    </span>
+                    </AnimationOnScroll>
+                </h1>
+                {/* <AnimationOnScroll animateIn="animate__tada">
                     <p className='title-presentation'><span>Melvin Silva</span></p>
                 </AnimationOnScroll>
                 <br />
@@ -27,7 +41,7 @@ const Presentation = () => {
                 </AnimationOnScroll>
                 <AnimationOnScroll animateIn="animate__fadeInLeftBig">
                     <p className='title-presentation'><span>{t('presentation.description2')}</span> 🇫🇷 </p>
-                </AnimationOnScroll>
+                </AnimationOnScroll> */}
                 <p className='description'>{t('presentation.my-description')} <br />{t('presentation.my-description2')}</p>
                 <div className="footer-social-icons">
                     <p className="text-follow">FOLLOW ME ON</p>

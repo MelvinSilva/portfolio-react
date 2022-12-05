@@ -1,3 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, ::before, ::after {
+    box-sizing: unset;
+    border-width: 0;
+    border-style: solid;
+    border-color: #ffffff;
+  }
+  
 .presentation {
     margin: auto;
     text-align: center;
@@ -27,7 +38,7 @@
             -webkit-background-clip: text;
             background-clip: text;
             background-size: 300%;
-            background-image: linear-gradient(90deg,#ffb6ff, #ffb6ff, #b444ffb0, #b344ff);
+            background-image: linear-gradient(90deg, #ffb6ff, #ffb6ff, #b444ffb0, #b344ff);
             animation: flow 10s ease-in-out infinite;
             @keyframes flow {
                 0% {

@@ -14,7 +14,7 @@ const MyProfil = () => {
                 <img src="./myprofile.jpg" alt="me" />
             </div>
             <h3><span>M</span>ELVIN <br/><span>S</span>ILVA</h3>
-            <select onChange={handleLangChange}>
+            <select className="select" onChange={handleLangChange}>
                 <option value="en" selected>🇬🇧</option>
                 <option value="fr">🇫🇷</option>
                 <option value="pt">🇵🇹</option>

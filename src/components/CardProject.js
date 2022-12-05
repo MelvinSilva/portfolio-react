@@ -12,7 +12,7 @@ const CardProject = ({ data }) => {
                         <div className="card-inner">
                             <div className="card-front">
                                 <div className="card-content">
-                                    <h2>{data.title}</h2>
+                                    <h2 className='title-project'>{data.title}</h2>
                                     {data.image ? <img className="image-front" src={data.image} alt='img-project' /> : <img src="myprofile.jpg" alt='img-project' />}
                                     <div className='langage'>
                                         {data.langage.map((lang) =>

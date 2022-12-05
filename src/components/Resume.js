@@ -14,14 +14,16 @@ const Resume = () => {
 
     return (
         <div className='resume'>
-            <input type="button" value={t('resume-text')} onClick={togglePopup} className="resume-cv"/>
+            <input type="button" value={t('resume-text')} onClick={togglePopup} className="resume-cv" />
             {isOpen &&
                 <Popup
                     content={<>
-                        <img src="cv-melvin.png" alt="" />
+                        <img src="cv-melvin.png" alt="cv-melvin" />
                     </>}
                     handleClose={togglePopup}
                 />}
+            <div className="resume-cv2"><a href="https://drive.google.com/u/0/uc?id=1Ar679TjwQAVSJs7_nHEN2LHaWUE75_2F&export=download" >{t('resume-download')}</a>
+            </div>
         </div>
     );
 };

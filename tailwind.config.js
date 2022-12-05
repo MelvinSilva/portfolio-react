@@ -78,12 +78,12 @@ module.exports = {
         },
       },
       animation: {
-        'gradient-background-1': 'gradient-background-1 8s infinite',
-        'gradient-foreground-1': 'gradient-foreground-1 8s infinite',
-        'gradient-background-2': 'gradient-background-2 8s infinite',
-        'gradient-foreground-2': 'gradient-foreground-2 8s infinite',
-        'gradient-background-3': 'gradient-background-3 8s infinite',
-        'gradient-foreground-3': 'gradient-foreground-3 8s infinite',
+        'gradient-background-1': 'gradient-background-1 5s infinite',
+        'gradient-foreground-1': 'gradient-foreground-1 5s infinite',
+        'gradient-background-2': 'gradient-background-2 5s infinite',
+        'gradient-foreground-2': 'gradient-foreground-2 5s infinite',
+        'gradient-background-3': 'gradient-background-3 5s infinite',
+        'gradient-foreground-3': 'gradient-foreground-3 5s infinite',
       }
     },
   },

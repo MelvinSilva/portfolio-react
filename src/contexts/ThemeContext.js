@@ -9,13 +9,13 @@ const ThemeContextProvider = (props) => {
     const toggleTheme = () => {
         setTheme(!theme);
     }
+    
 
     return (
-        <ThemeContext.Provider value={{theme, toggleTheme}}>
-        {props.children}
+        <ThemeContext.Provider value={{ theme, toggleTheme }}>
+            {props.children}
         </ThemeContext.Provider>
     )
-
 }
 
 export default ThemeContextProvider; 

@@ -23,8 +23,12 @@ body {
   src: url(../../public/fonts/SF-Pro-Text-Regular.otf);
 }
 @font-face {
-  font-family: "draw";
-  src: url(../../public/fonts/BetterGrade-519DV.ttf);
+  font-family: "bassy";
+  src: url(../../public/fonts/Bassy.ttf);
+}
+@font-face {
+  font-family: "ugly";
+  src: url(../../public/fonts/MyUglyHandwriting-Regular.otf);
 }
 
 .spline {

@@ -29,6 +29,10 @@
             color: #0f051773;
         }
     }
+    select {
+        background-image: linear-gradient(45deg, #ffb6ff1d, #b444ff14);
+        color: black;
+    }
 
     .card-front:before {
         background: rgb(245, 245, 245);
@@ -65,7 +69,7 @@
 
     .card-stack {
         background: rgb(245, 245, 245);
-    
+
         &:hover {
             background: rgb(245, 245, 245);
         }
@@ -85,7 +89,7 @@
             color: #0f0517a3;
         }
         .image-circle {
-            border: 3px solid #fbf4ff;;
+            border: 3px solid #fbf4ff;
         }
     }
 
@@ -95,7 +99,7 @@
         .hamburger-react {
             color: #0f0517a3;
         }
-        
+
         a {
             color: #0f0517a3;
         }
@@ -110,16 +114,29 @@
         padding: 10px 35px;
         transition: 0.5s;
         color: white;
-      }
-      .fa-linkedin:hover {
+    }
+    .fa-linkedin:hover {
         background-color: #0073a4;
-      }
+    }
 
-      .resume-cv2 {
+    .resume-cv {
         background: rgb(245, 245, 245);
-        a {
-            color: #0f0517;;
+        &:hover {
+            background: rgb(0, 0, 0);
+            color: white;
         }
-      }
-    
+    }
+
+    .resume-cv2 {
+        background: rgb(245, 245, 245);
+        &:hover {
+            background: rgb(0, 0, 0);
+        }
+        a {
+            color: #0f0517;
+            &:hover {
+                color: white;
+            }
+        }
+    }
 }

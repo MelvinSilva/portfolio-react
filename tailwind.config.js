@@ -14,12 +14,12 @@ module.exports = {
         tightest: '-.06em',
       },
       gradientColorStops: {
-        'gradient-1-start': '#007CF0',
-        'gradient-1-end': '#00DFD8',
-        'gradient-2-start': '#7928CA',
-        'gradient-2-end': '#FF0080',
-        'gradient-3-start': '#FF4D4D',
-        'gradient-3-end': '#F9CB28',
+        'gradient-3-start': '#fd9a21',
+        'gradient-3-end': '#ff322c',
+        'gradient-2-start': '#b444ff',
+        'gradient-2-end': '#f65aad',
+        'gradient-1-start': '#1e55cb',
+        'gradient-1-end': '#2dbcff',
       },
       keyframes: {
         'gradient-foreground-1': {

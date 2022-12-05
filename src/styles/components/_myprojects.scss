@@ -67,8 +67,6 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 30px;
-    box-shadow: 2px 2px 0px 0px #b44ff33e, 4px 4px 0px 0px #b44ff327,
-        6px 6px 0px 0px #b44ff305, 3px 3px 10px 2px rgba(0, 0, 0, 0);
 }
 
 .card-front {
@@ -81,13 +79,12 @@
 
 .card-content {
     svg {
-        width: 50px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         position: fixed;
-        top: 322px;
-        right: 0px;
-        border-bottom-right-radius: 30px;
-    }
+        top: 326px;
+        right: 5px;
+   }
 }
 
 .card-front:before {
@@ -96,14 +93,14 @@
     width: 100%;
     height: 100%;
     top: 0px;
-    background: linear-gradient(180deg, #b444ff31, #13061c);
+    background: linear-gradient(45deg, #b444ff31, #13061c);
 }
 
 .card-front .card-content {
     z-index: 1;
     color: rgba(255, 255, 255, 0.805);
     font-family: "regular";
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 2px;
     svg {
         font-size: 40px;
@@ -119,10 +116,6 @@
     border-radius: 10px;
     background-size: contain;
 }
-
-// .image-front {
-    // filter: brightness(0.5);
-// }
 
 .langage {
     display: flex;

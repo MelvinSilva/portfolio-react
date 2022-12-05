@@ -18,6 +18,11 @@
     justify-content: center;
     z-index: -10;
 
+    h1 {
+        letter-spacing: -1.5px;
+        font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    }
+
     .name {
         font-family: "regular";
         font-size: 20px;
@@ -27,40 +32,6 @@
             font-size: 9px;
             letter-spacing: 8px;
         }
-    }
-
-    .title-presentation {
-        font-weight: 600;
-        font-size: 80px;
-        text-align: center;
-        span {
-            color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
-            background-size: 300%;
-            background-image: linear-gradient(90deg, #ffb6ff, #ffb6ff, #b444ffb0, #b344ff);
-            animation: flow 10s ease-in-out infinite;
-            @keyframes flow {
-                0% {
-                    background-position: 0 50%;
-                }
-
-                50% {
-                    background-position: 100% 50%;
-                }
-
-                100% {
-                    background-position: 0 50%;
-                }
-            }
-        }
-        @media screen and(max-width:540px) {
-            font-size: 32px;
-        }
-    }
-
-    @media screen and(max-width:540px) {
-        margin-top: 10px;
     }
 
     .description {
@@ -157,8 +128,7 @@
                 border-radius: 5px;
                 background: linear-gradient(18deg, #b444ff51, #13061c);
                 &:hover {
-                    background-color: #ffffff;
-                    color: black;
+                    background-color: #b416e0;
                 }
                 @media screen and(min-width:700px) {
                     padding: 10px 90px;
@@ -247,16 +217,6 @@
             }
         }
     }
-    .title-presentation {
-        span {
-            color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
-            background-position: 50% 0;
-            background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
-        }
-    }
-
     .description {
         color: #0f0517a3;
     }

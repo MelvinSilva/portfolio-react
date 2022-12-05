@@ -50,27 +50,42 @@
     }
     .navbar-burger {
         margin: auto 0px;
-        background: #13061cbd;
+        background: #13061cea;
         display: none;
         flex-wrap: wrap;
         border-radius: 5px;
         padding: 3px;
+        right: 2px;
+
+        .me-logo {
+            margin-left: 20px;
+            max-width: 150px;
+            max-height: 150px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        .wrapper-social {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 300px;
+            overflow: auto;
+        }
 
         li {
             list-style: none;
+            margin-left: 20px;
+            z-index: 1;
         }
 
         a {
-            letter-spacing: 2px;
+            width: 100vw;
             text-decoration: none;
-            text-align: center;
+            text-align: start;
             color: rgb(255, 255, 255);
-            font-family: "regular";
+            font-family: "bold";
             font-size: 30px;
             @media screen and(max-width:860px) {
-                font-size: 20px;
-                margin-right: 60px;
-                padding: 10px;
+                font-size: 45px;
             }
 
             &:hover {
@@ -103,4 +118,3 @@
         }
     }
 }
-

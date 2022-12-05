@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { IoArrowUndoCircleOutline, IoArrowRedoCircleOutline } from "react-icons/io5";
+import { IoArrowRedoCircleOutline } from "react-icons/io5";
 
 const CardProject = ({ data }) => {
 

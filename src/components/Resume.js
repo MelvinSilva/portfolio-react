@@ -22,7 +22,7 @@ const Resume = () => {
                     </>}
                     handleClose={togglePopup}
                 />}
-            <div className="resume-cv2"><a href="https://drive.google.com/u/0/uc?id=1Ar679TjwQAVSJs7_nHEN2LHaWUE75_2F&export=download" >{t('resume-download')}</a>
+            <div className="resume-cv2"><a href="https://drive.google.com/uc?export=download&id=1Ar679TjwQAVSJs7_nHEN2LHaWUE75_2F" >{t('resume-download')}</a>
             </div>
         </div>
     );

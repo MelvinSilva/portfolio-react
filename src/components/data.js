@@ -70,7 +70,7 @@ export const data = [
         content: "",
         image: "tennis-ratio.png",
         langage: ["REACT", "CSS", "JS"],
-        website: "tennis-ratio.vercel.app",
+        website: "https://tennis-ratio.vercel.app",
         info: "",
     },
 ]

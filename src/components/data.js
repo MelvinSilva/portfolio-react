@@ -64,6 +64,15 @@ export const data = [
         website: "",
         info: "",
     },
+    {
+        id: 8,
+        title: "Tennis-Ratio",
+        content: "",
+        image: "tennis-ratio.png",
+        langage: ["REACT", "CSS", "JS"],
+        website: "",
+        info: "",
+    },
 ]
 
 export const stackData = [

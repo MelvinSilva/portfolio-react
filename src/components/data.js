@@ -53,15 +53,15 @@ export const data = [
         image: "destination-rhr.png",
         langage: ["JS", "REACT", "SCSS", "NODE.JS"],
         website: "https://destination-rhr-2.vercel.app/",
-        info: "Sorry, no database working.",
+        info: "No database working.",
     },
     {
         id: 7,
         title: "LM - Expertise & Consulting",
         content: "",
         image: "lmexpertise.png",
-        langage: ["HTML", "CSS", "JS"],
-        website: "",
+        langage: ["HTML", "CSS", "JS", "BOOTSTRAP"],
+        website: "https://lmexpertise.com",
         info: "",
     },
     {

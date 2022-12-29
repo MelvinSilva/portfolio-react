@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { MdSync } from "react-icons/md";
+import { BiRotateLeft } from "react-icons/bi";
 import { BsGlobe2 } from "react-icons/bs";
 
 const CardProject = ({ data }) => {
@@ -19,7 +19,7 @@ const CardProject = ({ data }) => {
                                         {data.langage.map((lang) =>
                                             <h5><span>{lang}</span></h5>)}
                                     </div>
-                                    <MdSync className='iconsvg'/>
+                                    <BiRotateLeft className='iconsvg'/>
                                 </div>
                             </div>
                             <div className="card-back">

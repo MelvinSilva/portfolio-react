@@ -38,6 +38,10 @@
         background: rgb(245, 245, 245);
     }
 
+    .card-front::after {
+        background-color: #0f0517c8;
+      }
+
     .card-front .card-content p {
         color: #0f0517a3;
     }
@@ -81,6 +85,12 @@
 
         svg {
             color: white;
+        }
+    }
+
+    .card-front .card-content {
+        svg {
+            color: rgb(255, 255, 255);
         }
     }
 

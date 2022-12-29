@@ -40,6 +40,7 @@
 }
 
 .card {
+    position: relative;
     padding: 20px;
     margin: auto;
     width: 300px;
@@ -47,6 +48,18 @@
     perspective: 1000px;
     text-align: center;
 }
+
+
+.card-front::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    width: 40px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.965);
+    transform: skew(-45deg); /* incline l'élément de 45 degrés */
+  }
 
 .card-inner {
     position: relative;
@@ -94,7 +107,7 @@
     width: 100%;
     height: 100%;
     top: 0px;
-    background: linear-gradient(45deg, #b444ff31, #13061c);
+    background: linear-gradient(45deg, #b444ff42, #1a0827);
 }
 
 .card-front .card-content {
@@ -105,9 +118,11 @@
     letter-spacing: 2px;
     svg {
         font-size: 40px;
-        margin-top: 33px;
-        right: 2px;
-        padding: 2px;
+        margin-top: 38px;
+        right: 0px;
+        padding: 3px;
+        color: rgb(0, 0, 0);
+        border-bottom-right-radius: 30px;
     }
 }
 
@@ -142,7 +157,7 @@
 
 .card-back {
     transform: rotateY(180deg);
-    background: linear-gradient(380deg, #b444ff31, #13061c);
+    background: linear-gradient(45deg, #b444ff42, #1a0827);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,17 +222,5 @@
     background: white;
 }
 
-.iconsvg {
-    animation: rotate 2s linear infinite;
-    animation-direction: alternate;
-}
 
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(180deg);
-  }
-}
 

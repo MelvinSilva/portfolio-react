@@ -17,7 +17,7 @@ const MyProfil = () => {
             <select className="select" onChange={handleLangChange}>
                 <option value="en" selected>🇬🇧</option>
                 <option value="fr">🇫🇷</option>
-                <option value="pt">🇵🇹</option>
+                {/* <option value="pt">🇵🇹</option> */}
                 <option value="es">🇪🇸</option>
             </select>
         </div>

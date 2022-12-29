@@ -1,16 +1,9 @@
 .navbar {
-    width: 40%;
-    @media screen and(max-width:1030px) {
-        width: 50%;
-    }
-    @media screen and(max-width:945px) {
-        width: 100%;
-    }
+    width: 100%;
 
     .navbar-normal {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: flex-end;
 
         li {
             list-style: none;

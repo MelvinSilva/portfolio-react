@@ -49,9 +49,9 @@
         }
     }
     .card-front .card-content {
-        color: #0000006f;
+        color: #00000087;
         svg {
-            color: #0000006f;
+            color: #0000009f;
         }
     }
     .card-back {
@@ -78,6 +78,10 @@
     .card-back .card-icons a {
         color: rgb(255, 255, 255);
         background: rgb(0, 0, 0);
+
+        svg {
+            color: white;
+        }
     }
 
     .header {

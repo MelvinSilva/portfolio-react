@@ -34,7 +34,7 @@
 .presentation-project {
     margin: 30px 20px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.750);
+    color: rgba(255, 255, 255, 0.75);
     letter-spacing: 1px;
     font-style: italic;
 }
@@ -85,7 +85,7 @@
         position: fixed;
         top: 326px;
         right: 5px;
-   }
+    }
 }
 
 .card-front:before {
@@ -105,7 +105,8 @@
     letter-spacing: 2px;
     svg {
         font-size: 40px;
-        margin-top: 30px;
+        margin-top: 33px;
+        right: 2px;
         padding: 2px;
     }
 }
@@ -169,8 +170,8 @@
     font-size: 24px;
     color: black;
     background: rgb(255, 255, 255);
-    width: 62px;
-    height: 62px;
+    width: 52px;
+    height: 52px;
     border-radius: 100%;
     margin: 8px;
     margin-top: 25px;
@@ -205,3 +206,18 @@
 .card.light {
     background: white;
 }
+
+.iconsvg {
+    animation: rotate 2s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+

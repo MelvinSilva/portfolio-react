@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { IoArrowRedoCircleOutline } from "react-icons/io5";
+import { MdSync } from "react-icons/md";
+import { BsGlobe2 } from "react-icons/bs";
 
 const CardProject = ({ data }) => {
 
@@ -18,7 +19,7 @@ const CardProject = ({ data }) => {
                                         {data.langage.map((lang) =>
                                             <h5><span>{lang}</span></h5>)}
                                     </div>
-                                    <IoArrowRedoCircleOutline />
+                                    <MdSync className='iconsvg'/>
                                 </div>
                             </div>
                             <div className="card-back">
@@ -28,7 +29,7 @@ const CardProject = ({ data }) => {
                                 <p><i>{data.info}</i></p>
                                 <div className="card-icons">
                                     {data.website ? <a href={data.website} target="_blank" rel="noreferrer">
-                                        <i className="fa fa-external-link"></i>
+                                    <BsGlobe2 />
                                     </a> : " "}
                                     {data.github ? <a href={data.github} target="_blank" rel="noreferrer">
                                         <i className="fab fa-github">{data.link}</i>

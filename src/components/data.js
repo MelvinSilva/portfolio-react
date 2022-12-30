@@ -1,6 +1,5 @@
 export const data = [
     {
-
         id: 1,
         title: "Blog Crypto",
         content: "",
@@ -8,7 +7,7 @@ export const data = [
         langage: ["HTML", "CSS", "JS"],
         website: "https://blog-crypto.vercel.app",
         github: "https://github.com/MelvinSilva/crypto-blog",
-        info: "First project with HTML, CSS and JS",
+        info: "My first project with HTML, CSS and JS",
     },
     {
         id: 2,

@@ -8,6 +8,7 @@ import Contact from '../components/Contact';
 import { ThemeContext } from '../contexts/ThemeContext';
 import Footer from '../components/Footer';
 import Header from '../components/Header'
+import MyServices from '../components/MyServices';
 
 const Home = () => {
 
@@ -20,6 +21,7 @@ const Home = () => {
             <Presentation />
             <Stack />
             <MyProjects />
+            <MyServices />
             <Contact /> 
             <Footer />
         </div>

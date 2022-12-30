@@ -19,7 +19,7 @@ const CardProject = ({ data }) => {
                                         {data.langage.map((lang) =>
                                             <h5><span>{lang}</span></h5>)}
                                     </div>
-                                    <BiRotateLeft className='iconsvg'/>
+                                    <BiRotateLeft className='iconsvg' />
                                 </div>
                             </div>
                             <div className="card-back">
@@ -29,7 +29,7 @@ const CardProject = ({ data }) => {
                                 <p><i>{data.info}</i></p>
                                 <div className="card-icons">
                                     {data.website ? <a href={data.website} target="_blank" rel="noreferrer">
-                                    <BsGlobe2 />
+                                        <BsGlobe2 />
                                     </a> : " "}
                                     {data.github ? <a href={data.github} target="_blank" rel="noreferrer">
                                         <i className="fab fa-github">{data.link}</i>

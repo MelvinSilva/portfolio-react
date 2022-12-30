@@ -57,10 +57,10 @@
 .card-front::after {
     content: "";
     position: absolute;
-    bottom: -25px;
+    bottom: -43px;
     right: 0;
-    width: 40px;
-    height: 80px;
+    width: 50px;
+    height: 100px;
     background-color: rgba(255, 255, 255, 0.965);
     transform: skew(-45deg); /* incline l'élément de 45 degrés */
   }
@@ -84,7 +84,7 @@
     width: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border-radius: 30px;
+    border-radius: 12px;
 }
 
 .card-front {
@@ -97,11 +97,10 @@
 
 .card-content {
     svg {
-        width: 30px;
-        height: 30px;
+        width: 26px;
+        height: 26px;
         position: fixed;
-        top: 326px;
-        right: 5px;
+        top: 329px;
     }
 }
 

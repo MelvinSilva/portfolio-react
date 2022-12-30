@@ -3,6 +3,8 @@
     "projects": "PROJECTS",
     "skill": "SKILL",
     "contact": "CONTACT",
+    "services" : "SERVICES",
+
     "presentation": {
       "title": "HI MY NAME IS",
       "description": "Full stack developer",
@@ -25,7 +27,16 @@
     "contact-button": "Send message",
 
     "resume-text": "See my CV 📝",
-    "resume-download": "Download CV 📝"
+    "resume-download": "Download CV 📝",
 
-    
+    "myservices-title": "My services",
+    "myservices-description": "A new project? A desire to modernize your image? Need to be more visible on the web?",
+
+    "service-title1": "UX DESIGN",
+    "service-description1": "For a successful user experience, many criteria and parameters must be taken into account: content, design, type of site, etc. The objective is for the user to easily reach his goal.",
+    "service-title2": "WEB DEVELOPMENT",
+    "service-description2": "Creation of a showcase site that allows you to put yourself forward and acquire more visibility. Depending on your objectives, I advise you on the technologies to use to create a unique showcase site.",
+    "service-title3": "GRAPHICS",
+    "service-description3": "Logo / Visual identity to imagine and create the graphic elements that will symbolize your company."
+
 }

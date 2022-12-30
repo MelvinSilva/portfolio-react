@@ -3,6 +3,8 @@
   "projects": "PROYECTOS",
   "skill": "HABILIDAD",
   "contact": "CONTACTO",
+  "services" : "SERVICIOS",
+
   "presentation": {
     "title": "ME LLAMO",
     "description": "Full stack developer",
@@ -20,5 +22,15 @@
   "contact-email": "Email",
   "contact-message": "Mensaje",
   "contact-button": "Enviar mensaje",
-  "resume-text": "Currículum aquí 📝"
+  "resume-text": "Currículum aquí 📝",
+
+  "myservices-title": "Mis servicios",
+  "myservices-description": "Un nuevo proyecto? Un deseo de modernizar su imagen? Necesitas ser más visible en la web?",
+
+  "service-title1": "UX DESIGN",
+  "service-description1": "Para una experiencia de usuario exitosa, se deben tener en cuenta muchos criterios y parámetros: contenido, diseño, tipo de sitio, etc. El objetivo es que el usuario alcance fácilmente su meta.",
+  "service-title2": "DESARROLLO WEB",
+  "service-description2": "Creación de un sitio escaparate que te permita darte a conocer y adquirir más visibilidad. Dependiendo de sus objetivos, le aconsejo sobre las tecnologías a utilizar para crear un sitio de exhibición único.",
+  "service-title3": "GRÁFICOS",
+  "service-description3": "Logotipo / Identidad visual para imaginar y crear los elementos gráficos que simbolizarán su empresa."
 }

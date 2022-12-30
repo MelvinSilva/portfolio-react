@@ -149,4 +149,22 @@
             }
         }
     }
+
+    .box {
+        background: rgb(245, 245, 245);
+    }
+
+    .content h2 {
+        color: #0f0517;
+        
+    }
+
+    .box:before {
+        background: #b444ff0f;
+    }
+
+    .box span:before {
+        background: #b444ff0d;
+    }
+    
 }

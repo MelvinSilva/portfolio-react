@@ -3,12 +3,13 @@
     "projects": "PROJETS",
     "skill": "COMPÉTENCES",
     "contact": "CONTACT",
+    "services" : "SERVICES",
     
     "presentation": {
       "title": "JE M'APPELLE",
       "description": "Full stack developer",
       "description2": "& designer in Paris",
-      "my-description": "Je suis développeur full stack agé de 31 ans avec 1 an d'experience. Je me veux d'être le plus créatif possible en utilisant mon imagination et mes compétences dans un projet. Mon but est de rendre un site web le plus jolie possible et adaptable en misant tout sur l'expèrience utilisateur. 🚀",
+      "my-description": "Je suis développeur full stack agé de 31 ans avec 1 an d'experience. Je me veux d'être le plus créatif possible en utilisant mon imagination et mes compétences dans la réalisation d'un projet. Mon but est de rendre votre site web le plus jolie possible et adaptable en misant tout sur l'expèrience utilisateur. 🚀",
       "my-description2": ""
     },
 
@@ -26,5 +27,16 @@
     "contact-button": "Envoyer le message",
 
     "resume-text": "Voir mon CV 📝",
-    "resume-download": "Télécharger CV 📝"
+    "resume-download": "Télécharger CV 📝",
+
+    "myservices-title": "Mes services",
+    "myservices-description": "Un nouveau projet ? Une envie de moderniser votre image ? Besoin d’être plus visible sur le web ?",
+
+    "service-title1": "UX DESIGN",
+    "service-description1": "Pour une expérience utilisateur réussie, il faut prendre en compte de nombreux critères et paramètres : le contenu, le design, le type de site, etc. L’objectif est que l’internaute atteigne facilement son but.",
+    "service-title2": "DÉVELOPPEMENT WEB",
+    "service-description2": "Création de site vitrine qui permet de vous mettre en avant et d'acquerir + de visibilité. Selon vos objectifs, je vous conseille sur les technologies à utiliser pour vous créer un site vitrine unique.",
+    "service-title3": "GRAPHISME",
+    "service-description3": "Logo / Identité visuelle pour imaginer et créer les éléments graphiques qui symboliseront votre entreprise."
+
 }

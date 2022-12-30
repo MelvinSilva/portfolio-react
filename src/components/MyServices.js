@@ -8,8 +8,8 @@ const MyServices = () => {
             <div class="anchor" id="contact"></div>
             <h1 className='contact-title'>My services</h1>
             <div class="geeks"></div>
-            <p className='infos'>Un nouveau projet ? Une envie de moderniser votre image ?
-                Besoin d’être plus visible sur le web ? Faites confiance à Melvin Silva.</p>
+            <p className='presentation-project'>Un nouveau projet ? Une envie de moderniser votre image ?
+                Besoin d’être plus visible sur le web ?</p>
             <div className="container-service">
                 <div className="box">
                     <span></span>
@@ -31,7 +31,7 @@ const MyServices = () => {
                         <h2>DEVELOPPEMENT WEB</h2>
                         <img src="developper.png" alt="developer" />
                         <p><i>Site vitrine</i><br /> qui permet de vous mettre en avant et d'acquerir + de visibilité.<br />
-                            En fonction de vos objectifs, je vous conseille sur les technologies à utiliser pour vous créer un site vitrine unique.</p>
+                            Selon vos objectifs, je vous conseille sur les technologies à utiliser pour vous créer un site vitrine unique.</p>
                     </div>
                 </div>
                 <div className="box">

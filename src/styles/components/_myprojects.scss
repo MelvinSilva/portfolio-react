@@ -29,6 +29,11 @@
         padding-top: 10px;
     }
     margin-top: 20px;
+
+    @media screen and(min-width:1350px) {
+        width: 1400px;
+    }
+
 }
 
 .presentation-project {
@@ -48,7 +53,6 @@
     perspective: 1000px;
     text-align: center;
 }
-
 
 .card-front::after {
     content: "";
@@ -221,6 +225,3 @@
 .card.light {
     background: white;
 }
-
-
-

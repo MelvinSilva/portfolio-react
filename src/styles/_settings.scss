@@ -109,9 +109,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5px;
     height: 50px;
-    width: 148px;
+    width: 240px;
     border: none;
     background: #b444ff2c;
     color: white;
@@ -124,12 +123,7 @@ body {
     &:hover {
       background-color: #b416e0;
     }
-    @media screen and(min-width:700px) {
-      width: 150px;
-    }
-    @media screen and(min-width:950px) {
-      width: 250px;
-    }
+ 
 
     a {
       color: white;

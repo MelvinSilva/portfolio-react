@@ -1,6 +1,10 @@
 
 .stack {
     margin: auto;
+    @media screen and(min-width:1350px) {
+        width: 1400px;
+    }
+
 
     h1 {
         text-align: center;

@@ -9,6 +9,7 @@ import { ThemeContext } from '../contexts/ThemeContext';
 import Footer from '../components/Footer';
 import Header from '../components/Header'
 import MyServices from '../components/MyServices';
+import BtnToggle from '../components/BtnToggle'
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
 
     return (
         <div className={theme ? 'home' : 'home light'} id='home'>
+            <BtnToggle />
             <Header />
             <Logo3D />
             <Presentation />

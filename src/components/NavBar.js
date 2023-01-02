@@ -2,6 +2,9 @@
 import React, { useState } from "react";
 import { Spin as Hamburger } from 'hamburger-react';
 import { useTranslation } from "react-i18next";
+import { AiFillHome } from "react-icons/ai";
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
 
@@ -16,10 +19,11 @@ const Navbar = () => {
 
         <div className='navbar'>
             <ul className="navbar-normal">
-                <a href="#home"><li>{t('home')}</li></a>
+                <a href="#home"><li><AiFillHome /></li></a>
                 <a href="#stack"><li>{t('skill')}</li></a>
                 <a href="#mes-projets"><li>{t('projects')}</li></a>
                 <a href="#mes-services"><li>{t('services')}</li></a>
+                <a><li><Link to="blog">BLOG</Link></li></a>
             </ul>
             {burger &&
                 <ul className="navbar-burger" onClick={handleClick}>

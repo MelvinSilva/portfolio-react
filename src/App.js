@@ -12,7 +12,7 @@ i18next.use(initReactI18next).use(Backend).init({
     loadPath: './translations/{{ lng }}/translations.json'
   },
   lng: "fr",
-  fallbackLng: "fr",
+  fallbackLng: "en",
 })
 
 function App() {

@@ -32,6 +32,7 @@ const Navbar = () => {
                     <a href="#stack"><li>{t('skill')}</li></a>
                     <a href="#mes-projets"><li>{t('projects')}</li></a>
                     <a href="#mes-services"><li>{t('services')}</li></a>
+                    <a><li><Link to="blog">BLOG</Link></li></a>
                     <a href="#contact"><li>{t('contact')}</li></a>
                     <div className="wrapper-social">
                     <li><a href="https://twitter.com/RealBDSPROD" className="social-icon" target="_blank" rel="noreferrer"> <i className="fa fa-twitter"></i></a></li>

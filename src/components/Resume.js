@@ -1,16 +1,10 @@
-import React, { useState } from 'react';
-import Popup from './Popup';
+import React from 'react';
 import { useTranslation } from "react-i18next";
 
 
 const Resume = () => {
 
     const { t } = useTranslation();
-    const [isOpen, setIsOpen] = useState(false);
-
-    const togglePopup = () => {
-        setIsOpen(!isOpen);
-    }
 
     return (
         <div className='resume'>

@@ -15,7 +15,6 @@ const Presentation = () => {
 
     return (
         <div>
-            <div class="anchor"></div>
             <div className={theme ? 'presentation' : 'presentation light'}>
                 <p className='name'>{t('presentation.title')}</p>
                 <h1 class="py-2 text-[10vw] text-center sm:text-10xl leading-none select-none tracking-tightest font-extrabold">

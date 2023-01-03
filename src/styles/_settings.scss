@@ -16,24 +16,25 @@ body {
 
 @font-face {
   font-family: "bold";
-  src: url(../../public/fonts/SF-Pro-Text-Bold.otf);
+  src: url(../../public/fonts/FontsFree-Net-SFProDisplay-Bold.ttf);
 }
 @font-face {
   font-family: "regular";
-  src: url(../../public/fonts/SF-Pro-Text-Regular.otf);
+  src: url(../../public/fonts/FontsFree-Net-SFProText-Regular-1.ttf);
 }
 @font-face {
   font-family: "bassy";
   src: url(../../public/fonts/Bassy.ttf);
 }
-@font-face {
-  font-family: "ugly";
-  src: url(../../public/fonts/MyUglyHandwriting-Regular.otf);
-}
 
 .spline {
   margin: auto;
-  height: 300px;
+
+  .img-iphone {
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+  }
 }
 
 .anchor {

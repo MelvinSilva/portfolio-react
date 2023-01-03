@@ -27,7 +27,7 @@ const Navbar = () => {
             </ul>
             {burger &&
                 <ul className="navbar-burger" onClick={handleClick}>
-                    <img className="me-logo" src="me-logo.PNG" alt="melvin" />
+                    <img className="me-logo" src="images/me-logo.PNG" alt="melvin" />
                     <a href="#home"><li>{t('home')}</li></a>
                     <a href="#stack"><li>{t('skill')}</li></a>
                     <a href="#mes-projets"><li>{t('projects')}</li></a>

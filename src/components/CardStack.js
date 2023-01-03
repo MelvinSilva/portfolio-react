@@ -7,7 +7,7 @@ const CardStack = ( { stackData } ) => {
         <div>
             <AnimationOnScroll animateIn="animate__tada">
             <div className='card-stack'>
-                <img src={stackData.image}></img>
+                <img src={stackData.image} alt="stack"></img>
                 <p>{stackData.title}</p>
             </div>
             </AnimationOnScroll>

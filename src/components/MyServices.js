@@ -20,7 +20,7 @@ const MyServices = () => {
                     <span></span>
                     <div className="content">
                         <h2>{t('service-title1')}</h2>
-                        <img className="image-service" src="uxdesign.png" alt="" />
+                        <img className="image-service" src="images/uxdesign.png" alt="ux-design" />
                         <p>{t('service-description1')}</p>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const MyServices = () => {
                     <span></span>
                     <div className="content">
                         <h2>{t('service-title2')}</h2>
-                        <img src="developper.png" alt="developer" />
+                        <img src="images/developper.png" alt="developpement" />
                         <p>{t('service-description2')}</p>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ const MyServices = () => {
                     <span></span>
                     <div className="content">
                         <h2>{t('service-title3')}</h2>
-                        <img src="graphisme.png" alt="graphisme" />
+                        <img src="images/graphisme.png" alt="graphisme" />
                         <p>{t('service-description3')}</p>
                     </div>
                 </div>

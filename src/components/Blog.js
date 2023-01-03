@@ -13,7 +13,6 @@ const Blog = () => {
                 <Link to="/"><button className='btn-blog'>Retour accueil</button></Link>
             </div>
             <Contact />
-
         </div>
     );
 };

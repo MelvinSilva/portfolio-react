@@ -19,11 +19,11 @@ const Navbar = () => {
 
         <div className='navbar'>
             <ul className="navbar-normal">
-                <a href="#home"><li><AiFillHome /></li></a>
-                <a href="#stack"><li>{t('skill')}</li></a>
-                <a href="#mes-projets"><li>{t('projects')}</li></a>
-                <a href="#mes-services"><li>{t('services')}</li></a>
-                <a><li><Link to="blog">BLOG</Link></li></a>
+                <li><a href="#home"><AiFillHome /></a></li>
+                <li><a href="#stack">{t('skill')}</a></li>
+                <li><a href="#mes-projets">{t('projects')}</a></li>
+                <li><a href="#mes-services">{t('services')}</a></li>
+                <li><a><Link to="blog">BLOG</Link></a></li>
             </ul>
             {burger &&
                 <ul className="navbar-burger" onClick={handleClick}>

@@ -5,7 +5,7 @@ import { Suspense } from 'react';
 import i18next from "i18next";
 import { initReactI18next } from "react-i18next";
 import Backend from 'i18next-http-backend';
-import Blog from "./components/Blog";
+import Blog from "./pages/Blog";
 import Header from "./components/Header";
 
 i18next.use(initReactI18next).use(Backend).init({

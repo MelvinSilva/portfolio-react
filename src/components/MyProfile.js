@@ -1,5 +1,6 @@
 import React from 'react';
 import i18next from "i18next";
+import { Link } from 'react-router-dom';
 
 const MyProfil = () => {
 
@@ -10,10 +11,12 @@ const MyProfil = () => {
 
     return (
         <div className='my-profile' id="accueil">
-            <div class="image-circle">
-                <img src="images//myprofile.jpg" alt="pic-profile" />
-            </div>
-            <h3><span>M</span>ELVIN <br/><span>S</span>ILVA</h3>
+            <Link to="/">
+                <div class="image-circle">
+                    <img src="images//myprofile.jpg" alt="pic-profile" />
+                </div>
+            </Link>
+            <h3><span>M</span>ELVIN <br /><span>S</span>ILVA</h3>
             <select className="select" onChange={handleLangChange}>
                 <option value="fr" selected>🇫🇷</option>
                 <option value="en">🇬🇧</option>

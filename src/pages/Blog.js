@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Contact from './Contact';
-import Footer from './Footer';
-import MyProfil from './MyProfile';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
+import MyProfil from '../components/MyProfile';
 
 const Blog = () => {
     return (
@@ -11,7 +11,7 @@ const Blog = () => {
             <div className="anchor"></div>
             <div className="container-blog">
                 <h1 className='title-blog'>Blog en cours de construction...</h1>
-                <Link to="/"><button className='btn-blog'>Retour accueil</button></Link>
+                <Link to="/"><button className='btn-blog'>Retour</button></Link>
             </div>
             <Contact />
             <Footer />

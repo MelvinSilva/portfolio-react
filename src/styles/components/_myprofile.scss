@@ -49,8 +49,8 @@
         width: 50px;
         height: 25px;
         font-size: 15px;
-        background: rgb(255, 255, 255);
-        color: black;
+        background: linear-gradient(45deg, #b444ff3a, #13061c3b);
+        color: rgb(255, 255, 255);
 
         @media screen and(max-width:540px) {
             top: 19.5px;

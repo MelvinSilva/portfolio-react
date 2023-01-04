@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Contact from './Contact';
+import Footer from './Footer';
 import MyProfil from './MyProfile';
 
 const Blog = () => {
@@ -13,6 +14,7 @@ const Blog = () => {
                 <Link to="/"><button className='btn-blog'>Retour accueil</button></Link>
             </div>
             <Contact />
+            <Footer />
         </div>
     );
 };

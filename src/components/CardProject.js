@@ -31,9 +31,9 @@ const CardProject = ({ data }) => {
                                     {data.website ? <a href={data.website} target="_blank" rel="noreferrer">
                                         <BsGlobe2 />
                                     </a> : " "}
-                                    {data.github ? <a href={data.github} target="_blank" rel="noreferrer">
+                                    {/* {data.github ? <a href={data.github} target="_blank" rel="noreferrer">
                                         <i className="fab fa-github">{data.link}</i>
-                                    </a> : " "}
+                                    </a> : " "} */}
                                 </div>
                             </div>
                         </div>

@@ -73,8 +73,9 @@
     }
 
     .card-stack {
-        background: rgb(245, 245, 245);
-
+        img {
+            background: rgb(245, 245, 245);
+        }
         &:hover {
             background: rgb(245, 245, 245);
         }

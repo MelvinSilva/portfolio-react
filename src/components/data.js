@@ -92,7 +92,7 @@ export const stackData = [
     },
     {
         id: 3,
-        title: "JS",
+        title: "JAVASCRIPT",
         image: "images/javascript-js-seeklogo.com.svg",
     },
     {

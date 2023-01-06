@@ -7,9 +7,9 @@
 
     "presentation": {
       "title": "HI MY NAME IS",
-      "description": "Full stack developer",
+      "description": "Front-end developer",
       "description2": "& designer in Paris",
-      "my-description": "I'm a 31 years old full stack developer with 1 year of experience. I want to be as creative as possible using my imagination and my skills in a project. My goal is to make a website pretty and adaptable by focusing on the best possible user experience. 🚀",
+      "my-description": "I'm a front-end developer with 1 year of experience. I want to be as creative as possible using my imagination and my skills in a project. My goal is to make a website pretty and adaptable by focusing on the best possible user experience. 🚀",
       "my-description2": ""
     },
 
@@ -21,9 +21,9 @@
 
     "contact-description": "For any project contact me on this contact form to discuss it over a coffee ☕ ",
     "contact-description2": "or other if you don't like 😁",
-    "contact-name": "Name",
-    "contact-email": "Email",
-    "contact-message": "Message",
+    "contact-name": "Name*",
+    "contact-email": "Email*",
+    "contact-message": "Message*",
     "contact-button": "Send message",
 
     "resume-text": "See my CV 📝",

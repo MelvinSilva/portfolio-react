@@ -115,11 +115,11 @@ export const stackData = [
         title: "NODE.JS",
         image: "images/expressjs.jpeg",
     },
-    {
+    /* {
         id: 8,
         title: "POSTGRESQL",
         image: "images/postgresql-seeklogo.com.svg",
-    },
+    }, */
     {
         id: 9,
         title: "FIGMA",
@@ -135,9 +135,9 @@ export const stackData = [
         title: "ILLUSTRATOR",
         image: "images/adobe-illustrator-seeklogo.com.svg",
     },
-    {
+    /* {
         id: 12,
         title: "NEXT.JS",
         image: "images/nextjs.png",
-    },
+    }, */
 ]

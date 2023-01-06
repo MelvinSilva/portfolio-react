@@ -7,9 +7,9 @@
     
     "presentation": {
       "title": "JE M'APPELLE",
-      "description": "Full stack developer",
+      "description": "Front-end developer",
       "description2": "& designer in Paris",
-      "my-description": "Je suis développeur full stack agé de 31 ans avec 1 an d'experience. Je me veux d'être le plus créatif possible en utilisant mon imagination et mes compétences dans la réalisation d'un projet. Mon but est de rendre votre site web le plus jolie possible et adaptable en misant tout sur l'expèrience utilisateur. 🚀",
+      "my-description": "Je suis développeur front-end avec 1 an d'experience. Je me veux d'être le plus créatif possible en utilisant mon imagination et mes compétences dans la réalisation d'un projet. Mon but est de rendre votre site web le plus jolie possible et adaptable en misant tout sur l'expèrience utilisateur. 🚀",
       "my-description2": ""
     },
 
@@ -21,9 +21,9 @@
 
     "contact-description": "Pour tout projet contactez moi sur ce formulaire afin d'en discuter autour d'un café ☕ ",
     "contact-description2": "ou autre si vous n'aimez pas 😁",
-    "contact-name": "Votre nom/prénom",
-    "contact-email": "Votre email",
-    "contact-message": "Votre message",
+    "contact-name": "Votre nom/prénom*",
+    "contact-email": "Votre email*",
+    "contact-message": "Votre message*",
     "contact-button": "Envoyer le message",
 
     "resume-text": "Voir mon CV 📝",

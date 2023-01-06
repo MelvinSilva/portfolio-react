@@ -7,9 +7,9 @@
 
   "presentation": {
     "title": "ME LLAMO",
-    "description": "Full stack developer",
+    "description": "Front-end developer",
       "description2": "& designer in Paris",
-    "my-description": "Soy un desarrollador full stack de 31 años con 1 año de experiencia. Quiero ser lo más creativo posible usando mi imaginación y mis habilidades en un proyecto. Mi objetivo es hacer un sitio web bonito y adaptable centrándome en la mejor experiencia de usuario posible. 🚀",
+    "my-description": "Soy un desarrollador front-end on 1 año de experiencia. Quiero ser lo más creativo posible usando mi imaginación y mis habilidades en un proyecto. Mi objetivo es hacer un sitio web bonito y adaptable centrándome en la mejor experiencia de usuario posible. 🚀",
     "my-description2": ""
   },
   "stack-title": "Habilidades técnicas",
@@ -18,9 +18,9 @@
   "myprojects-description": "Os presento aquí los diferentes proyectos que he podido llevar a cabo.",
   "contact-description": "Para cualquier proyecto contáctame en este formulario de contacto para discutirlo tomando un café ☕ ",
   "contact-description2": "u otro si no te gusta 😁",
-  "contact-name": "Nombre",
-  "contact-email": "Email",
-  "contact-message": "Mensaje",
+  "contact-name": "Nombre*",
+  "contact-email": "Email*",
+  "contact-message": "Mensaje*",
   "contact-button": "Enviar mensaje",
   "resume-text": "Currículum aquí 📝",
 

@@ -16,7 +16,7 @@ const MyProjects = () => {
                 <h1 className='project-title'>{t('myprojects-title')}</h1>
             </div>
             <div className="geeks"></div>
-            <p className='presentation-project'>{t('myprojects-description')}</p>
+            {/* <p className='presentation-project'>{t('myprojects-description')}</p> */}
             <AnimationOnScroll animateIn="animate__fadeIn">
                 <div className='my-projects'>
                     {data.map(project => (

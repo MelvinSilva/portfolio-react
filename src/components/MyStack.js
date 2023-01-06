@@ -12,7 +12,7 @@ const MyStack = () => {
             <div class="anchor" id="stack"></div>
             <h1>{t('stack-title')}</h1>
             <div class="geeks"></div>
-            <p className='presentation-stack'>{t('stack-description')}</p>
+            {/* <p className='presentation-stack'>{t('stack-description')}</p> */}
             <div className='wrapper-stack'>{stackData.map(stack => (
                 <CardStack key={stack.id} stackData={stack} />
             ))}

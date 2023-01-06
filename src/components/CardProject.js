@@ -28,6 +28,7 @@ const CardProject = ({ data }) => {
                                 </div>
                                 <p><i>{data.info}</i></p>
                                 <div className="card-icons">
+                                    <p>WEBSITE</p>
                                     {data.website ? <a href={data.website} target="_blank" rel="noreferrer">
                                         <BsGlobe2 />
                                     </a> : " "}

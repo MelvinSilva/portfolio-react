@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/iframe-has-title */
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { useTranslation } from "react-i18next";
@@ -12,7 +12,6 @@ const Presentation = () => {
 
     const { theme } = useContext(ThemeContext);
     const { t } = useTranslation();
-    const [expanded, setExpanded] = useState(false);
 
     return (
         <div>
@@ -41,17 +40,9 @@ const Presentation = () => {
                 </AnimationOnScroll>
                 <AnimationOnScroll animateIn="animate__fadeInLeftBig">
                     <p className='title-presentation'><span>{t('presentation.description2')}</span> 🇫🇷 </p>
-                </AnimationOnScroll> */}
-                <div className="container-description">
-                    {expanded
-                        ?
-                        <p className='description'>{t('presentation.my-description')} <br />{t('presentation.my-description2')} </p>
-                        :
-                        <p className='description'>{t('presentation.my-description').substring(0, 200)}... <i><span>(cliquez pour afficher la suite)</span></i></p>}
-                    <button className="btn-suite" onClick={() => setExpanded(!expanded)}>
-                        {expanded ? "Réduire" : "En savoir plus"}
-                    </button>
-                </div>
+    </AnimationOnScroll> */}
+                <p className='description'>{t('presentation.my-description')} <br />{t('presentation.my-description2')} </p>
+
                 <div className="footer-social-icons">
                     <p className="text-follow">FOLLOW ME ON</p>
                     <ul className="social-icons">

@@ -37,52 +37,34 @@
         }
     }
 
-    .container-description {
-        position: relative;
+    .description {
+        margin: 50px 100px;
+        text-align: justify;
+        font-family: "regular";
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.75);
+        letter-spacing: 3px;
 
-        .description {
-            margin: 40px 100px 0px 100px;
-            text-align: justify;
-            font-family: "regular";
+        svg {
             font-size: 20px;
-            color: rgba(255, 255, 255, 0.75);
-            letter-spacing: 3px;
-
-            svg {
-                font-size: 20px;
-            }
-            @media screen and(max-width:540px) {
-                margin: 35px 25px 0px 25px;
-                font-size: 15px;
-                line-height: 25px;
-                letter-spacing: 1px;
-            }
-            @media screen and(min-width:1500px) {
-                margin: 40px 25%;
-            }
-
-            span {
-                font-size: 11px;
-            }
+        }
+        @media screen and(max-width:540px) {
+            margin: 35px 25px;
+            font-size: 17px;
+            line-height: 25px;
+            letter-spacing: 1px;
+        }
+        @media screen and(min-width:1500px) {
+            margin: 40px 25%;
         }
 
-        .btn-suite {
-            margin: 0px auto 70px auto;
-            width: 320px;
-            height:35px;
-            background-image: linear-gradient(45deg, #ffb6ff, #b344ff);
-            border: none;
-            border-radius: 5px;
-            color: white;
-            font-family: "regular";
-            letter-spacing: 2px;
-            font-size: 15px;
-            cursor: pointer;
+        span {
+            font-size: 11px;
         }
     }
 
     .arrows {
-        margin: 1px auto 0px auto;
+        margin: 13px auto 0px auto;
         width: 60px;
         height: 72px;
     }

@@ -110,7 +110,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 50px;
-    width: 240px;
+    width: 305px;
     border: none;
     background: #b444ff2c;
     color: white;
@@ -122,6 +122,12 @@ body {
     cursor: pointer;
     &:hover {
       background-color: #b416e0;
+    }
+    @media screen and(min-width:700px) {
+      width: 638px;
+    }
+    @media screen and(min-width:950px) {
+      width: 875px;
     }
  
 

@@ -7,7 +7,8 @@
 
 body {
   background: #0f0517;
-  background-size: cover;
+  background-size: contain;
+  background-image: url(../../public/images/ooorganizee.svg);
   color: rgb(255, 255, 255);
   margin: 0;
   padding: 0;

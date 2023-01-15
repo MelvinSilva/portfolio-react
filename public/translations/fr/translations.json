@@ -7,9 +7,9 @@
     
     "presentation": {
       "title": "JE M'APPELLE",
-      "description": "Front-end developer",
+      "description": "Full stack developer",
       "description2": "& designer in Paris",
-      "my-description": "Je suis développeur front-end spécialisé React. Passionné dans un premier temps par le design et le graphisme, j'ai pris goût au développement web en 2020 de façon autodidacte et j'ai décidé de partir en formation par la suite afin d'acquérir des connaissances et j'ai validé le diplôme Développeur web et web mobile (bac +2). Je me veux d'être le plus créatif possible en utilisant mon imagination et mes compétences dans la réalisation d'un projet. Mon but est de rendre votre site web le plus joli possible et adaptable en misant tout sur l'expérience utilisateur. Je vous invite à découvrir mes réalisations et à me contacter pour plus d'infos 🚀",
+      "my-description": "Je suis développeur full-stack chez e.SNCF Solutions. Passionné dans un premier temps par le design et le graphisme, j'ai pris goût au développement web fin 2019 de façon autodidacte. J'ai décidé de partir en formation par la suite afin d'acquérir des connaissances puis validé le diplôme Développeur web et web mobile (bac +2). Je me veux d'être le plus créatif possible en utilisant mon imagination et mes compétences dans la réalisation d'un projet. Mon but est de rendre votre site web le plus joli possible et adaptable en misant au maximum sur l'expérience utilisateur. Je vous invite à découvrir mes réalisations et à me contacter pour plus d'infos 🚀",
       "my-description2": ""
     },
 
@@ -19,8 +19,7 @@
     "myprojects-title": "Mes projets",
     "myprojects-description": "Je présente ici les différents projets que j'ai pu réaliser.",
 
-    "contact-description": "Pour tout projet contactez moi sur ce formulaire afin d'en discuter autour d'un café ☕ ",
-    "contact-description2": "ou autre si vous n'aimez pas 😁",
+    "contact-description": "Pour toute question contactez moi sur ce formulaire afin d'en discuter 😁",
     "contact-name": "Votre nom/prénom*",
     "contact-email": "Votre email*",
     "contact-message": "Votre message*",
@@ -29,7 +28,7 @@
     "resume-text": "Voir mon CV 📝",
     "resume-download": "Télécharger CV 📝",
 
-    "myservices-title": "Mes services",
+    "myservices-title": "Services",
     "myservices-description": "Un nouveau projet ? Une envie de moderniser votre image ? Besoin d’être plus visible sur le web ?",
 
     "service-title1": "UX DESIGN",

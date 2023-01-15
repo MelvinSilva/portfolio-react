@@ -7,7 +7,7 @@
 
   "presentation": {
     "title": "ME LLAMO",
-    "description": "Front-end developer",
+    "description": "Full stack developer",
       "description2": "& designer in Paris",
     "my-description": "Soy un desarrollador front-end on 1 año de experiencia. Quiero ser lo más creativo posible usando mi imaginación y mis habilidades en un proyecto. Mi objetivo es hacer un sitio web bonito y adaptable centrándome en la mejor experiencia de usuario posible. 🚀",
     "my-description2": ""
@@ -16,15 +16,14 @@
   "stack-description": "Lista de herramientas tecnológicas utilizadas para desarrollar y operar un programa.",
   "myprojects-title": "Mis proyectos",
   "myprojects-description": "Os presento aquí los diferentes proyectos que he podido llevar a cabo.",
-  "contact-description": "Para cualquier proyecto contáctame en este formulario de contacto para discutirlo tomando un café ☕ ",
-  "contact-description2": "u otro si no te gusta 😁",
+  "contact-description": "Para cualquier proyecto contáctame en este formulario de contacto para discutirlo 😁",
   "contact-name": "Nombre*",
   "contact-email": "Email*",
   "contact-message": "Mensaje*",
   "contact-button": "Enviar mensaje",
   "resume-text": "Currículum aquí 📝",
 
-  "myservices-title": "Mis servicios",
+  "myservices-title": "Servicios",
   "myservices-description": "Un nuevo proyecto? Un deseo de modernizar su imagen? Necesitas ser más visible en la web?",
 
   "service-title1": "UX DESIGN",

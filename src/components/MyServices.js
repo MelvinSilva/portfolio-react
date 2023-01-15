@@ -11,7 +11,7 @@ const MyServices = () => {
             <div class="anchor" id="mes-services"></div>
             <h1 className='contact-title'>{t('myservices-title')}</h1>
             <div class="geeks"></div>
-            <p className='presentation-project'>{t('myservices-description')}</p>
+            {/* <p className='presentation-project'>{t('myservices-description')}</p> */}
             <div className="container-service">
                 <div className="box">
                     <span></span>

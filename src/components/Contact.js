@@ -25,8 +25,7 @@ const Contact = () => {
             <div class="anchor" id="contact"></div>
             <h1 className='contact-title'>Contact</h1>
             <div class="geeks"></div>
-            <p className='infos'>{t('contact-description')}
-                <strike>{t('contact-description2')}</strike></p>
+            <p className='infos'>{t('contact-description')}</p>
             <form onSubmit={sendEmail}>
                 <input placeholder={t('contact-name')} type="text" name="user_name" required />
                 <input placeholder={t('contact-email')} type="email" name="user_email" required />

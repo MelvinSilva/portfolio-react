@@ -21,7 +21,7 @@
     z-index: -10;
 
     h1 {
-        letter-spacing: -1.5px;
+        letter-spacing: -1.2px;
         font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
             sans-serif;
     }
@@ -225,5 +225,9 @@
     }
     .description {
         color: #0f0517a3;
+    }
+
+    .font_text::before {
+        color: #0f051775;
     }
 }

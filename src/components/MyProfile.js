@@ -17,12 +17,16 @@ const MyProfil = () => {
                 </div>
             </Link>
             <h3><span>M</span>ELVIN <br /><span>S</span>ILVA</h3>
-            <select className="select" onChange={handleLangChange}>
-                <option value="fr" selected>🇫🇷</option>
-                <option value="en">🇬🇧</option>
-                {/* <option value="pt">🇵🇹</option> */}
-                <option value="es">🇪🇸</option>
-            </select>
+            <div className="selectdiv">
+                <label>
+                    <select onChange={handleLangChange}>
+                        <option className="flag" value="fr" selected>🇫🇷</option>
+                        <option className="flag" value="en">🇬🇧</option>
+                        {/* <option value="pt">🇵🇹</option> */}
+                        <option className="flag" value="es">🇪🇸</option>
+                    </select>
+                </label>
+            </div>
         </div>
     );
 };

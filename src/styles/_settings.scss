@@ -3,6 +3,13 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-appearance: none;
+}
+
+.bg-clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-appearance: none;
 }
 
 body {
@@ -97,7 +104,7 @@ body {
     margin-right: 5px;
     cursor: pointer;
     &:hover {
-      background-color: #b416e0;;
+      background-color: #b416e0;
     }
     @media screen and(min-width:700px) {
       width: 150px;
@@ -130,7 +137,6 @@ body {
     @media screen and(min-width:950px) {
       width: 875px;
     }
- 
 
     a {
       color: white;

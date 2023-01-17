@@ -1,25 +1,25 @@
 {
     "home": "ACCUEIL",
-    "projects": "PROJETS",
+    "projects": "RÉALISATIONS",
     "skill": "COMPÉTENCES",
     "contact": "CONTACT",
-    "services" : "SERVICES",
+    "services" : "EXPERTISES",
     
     "presentation": {
       "title": "JE M'APPELLE",
-      "description": "Full stack developer",
-      "description2": "& designer in Paris",
-      "my-description": "Je suis développeur full-stack chez e.SNCF Solutions. Passionné dans un premier temps par le design et le graphisme, j'ai pris goût au développement web fin 2019 de façon autodidacte. J'ai décidé de partir en formation par la suite afin d'acquérir des connaissances puis validé le diplôme Développeur web et web mobile (bac +2). Je me veux d'être le plus créatif possible en utilisant mon imagination et mes compétences dans la réalisation d'un projet. Mon but est de rendre votre site web le plus joli possible et adaptable en misant au maximum sur l'expérience utilisateur. Je vous invite à découvrir mes réalisations et à me contacter pour plus d'infos 🚀",
+      "description": "Développeur Full-stack",
+      "description2": "& designer à Paris",
+      "my-description": "Je suis développeur full-stack chez e.SNCF Solutions. Passionné dans un premier temps par le design et le graphisme, j'ai pris goût au développement web fin 2019 de façon autodidacte. J'ai décidé de partir en formation par la suite afin d'acquérir des connaissances puis validé le diplôme Développeur web et web mobile (bac +2). Je me veux d'être le plus créatif possible en utilisant mon imagination et mes compétences dans la réalisation d'un projet. Mon but est de rendre votre site web le plus joli possible et adaptable en misant au maximum sur l'expérience utilisateur. Je vous invite à découvrir mes réalisations et à me contacter pour plus d'infos 🚀.",
       "my-description2": ""
     },
 
     "stack-title": "Compétences techniques",
     "stack-description": "Outils technologiques utilisés pour développer et faire fonctionner un programme.",
 
-    "myprojects-title": "Mes projets",
+    "myprojects-title": "Mes réalisations",
     "myprojects-description": "Je présente ici les différents projets que j'ai pu réaliser.",
 
-    "contact-description": "Pour toute question contactez moi sur ce formulaire afin d'en discuter 😁",
+    "contact-description": "N'hésitez pas à me contacter, je suis à votre disposition pour plus d'informations. 😁",
     "contact-name": "Votre nom/prénom*",
     "contact-email": "Votre email*",
     "contact-message": "Votre message*",
@@ -28,12 +28,12 @@
     "resume-text": "Voir mon CV 📝",
     "resume-download": "Télécharger CV 📝",
 
-    "myservices-title": "Services",
+    "myservices-title": "Expertises",
     "myservices-description": "Un nouveau projet ? Une envie de moderniser votre image ? Besoin d’être plus visible sur le web ?",
 
     "service-title1": "UX DESIGN",
     "service-description1": "Pour une expérience utilisateur réussie, il faut prendre en compte de nombreux critères et paramètres : le contenu, le design, le type de site, etc. L’objectif est que l’internaute atteigne facilement son but.",
-    "service-title2": "DÉVELOPPEMENT WEB",
+    "service-title2": "DÉVELOPPEMENT WEB ET MOBILE",
     "service-description2": "Création de site vitrine qui permet de vous mettre en avant et d'acquerir + de visibilité. Selon vos objectifs, il faut choisir les meilleures technologies à utiliser pour créer un site web vitrine unique.",
     "service-title3": "GRAPHISME",
     "service-description3": "Logo / Identité visuelle pour imaginer et créer les éléments graphiques qui symboliseront au mieux votre entreprise."

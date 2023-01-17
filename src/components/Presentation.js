@@ -17,7 +17,7 @@ const Presentation = () => {
         <div>
             <div className={theme ? 'presentation' : 'presentation light'}>
                 <p className='name'>{t('presentation.title')}</p>
-                <h1 class="py-2 text-[10vw] text-center sm:text-10xl leading-none select-none tracking-tightest font-extrabold">
+                <h1 class="py-2 text-[8vw] text-center sm:text-10xl leading-none select-none tracking-tightest font-extrabold">
                     <AnimationOnScroll animateIn="animate__tada"><span data-content="Melvin Silva" class="relative block before:content-[attr(data-content)] before:w-full before:z-0 before:block before:absolute before:top-0 before:px-0 before:bottom-0 before:left-0 before:text-center before:text-gray-300 before:animate-gradient-background-1">
                         <span class="px-2 text-transparent bg-clip-text bg-gradient-to-r from-gradient-1-start to-gradient-1-end animate-gradient-foreground-1">Melvin Silva</span>
                     </span>

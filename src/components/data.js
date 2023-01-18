@@ -7,7 +7,7 @@ export const data = [
         langage: ["HTML", "CSS", "JS"],
         website: "https://blog-crypto.vercel.app",
         github: "https://github.com/MelvinSilva/crypto-blog",
-        info: "My first project with HTML, CSS and JS",
+        info: "Mon premier projet type blog avec HTML, CSS & JS",
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ export const data = [
         image: "images/lmexpertise-1.webp",
         langage: ["HTML", "CSS", "JS", "BOOTSTRAP"],
         website: "https://lmexpertise.com",
-        info: "Showcase website for a consulting and expertise agency",
+        info: "Site web vitrine pour une agence d'expertise et de consulting",
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ export const data = [
         langage: ["REACT", "SCSS", "API"],
         website: "https://mood-moove.vercel.app/",
         github: "https://github.com/MelvinSilva/mood-moove",
-        info: "Project to search for events in Paris. Adding reviews is currently not working.",
+        info: "Projet qui permet de rechercher des évenements dans la ville de Paris. L'ajout des avis ne fonctionne pas.",
     },
     {
         id: 4,
@@ -36,7 +36,7 @@ export const data = [
         langage: ["REACT.JS", "SCSS", "API"],
         website: "https://wiki-player.vercel.app/",
         github: "https://github.com/MelvinSilva/wiki-player",
-        info: "Project to find high-level athletes"
+        info: "Projet permettant de rechercher des sportifs de haut-niveau"
     },
     {
         id: 5,
@@ -46,7 +46,7 @@ export const data = [
         langage: ["REACT.JS", "SCSS"],
         website: "https://melvinsilva.github.io/tictactoe-psg/",
         github: "https://github.com/MelvinSilva/tictactoe-psg",
-        info: "As its name suggests: Tic Tac Toe"
+        info: "Comme son nom l'indique : Tic Tac Toe"
     },
     {
         id: 6,
@@ -55,7 +55,7 @@ export const data = [
         image: "images/destination-rhr.webp",
         langage: ["REACT.JS", "SCSS", "NODE.JS"],
         website: "https://destination-rhr-2.vercel.app/",
-        info: "Fictional Full stack project for a company. No database working.",
+        info: "Projet full-stack fictif pour une entreprise. La base de données ne fonctionne pas actuellement.",
     },
     {
         id: 7,
@@ -65,17 +65,17 @@ export const data = [
         langage: ["REACT.JS", "CSS"],
         website: "https://tennis-ratio.vercel.app",
         github: "https://github.com/MelvinSilva/tennis-ratio",
-        info: "Project to calculate a ratio.",
+        info: "Projet permettant de calculer un ratio selon plusieurs paramètres tennistique",
     },
     {
         id: 8,
         title: "My Portfolio",
         content: "",
-        image: "images/no-image.png",
+        image: "images/myportfolio.png",
         langage: ["REACT.JS", "SCSS", "TAILWIND"],
         website: "https://melvinsilva.tech",
         github: "https://github.com/MelvinSilva/portfolio-react",
-        info: "My current website which presents my portfolio",
+        info: "Mon portfolio que je vous présente actuellement",
     },
 ]
 

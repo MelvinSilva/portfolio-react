@@ -2,7 +2,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React, { useContext } from 'react';
 import "animate.css/animate.min.css";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from '../contexts/ThemeContext';
 import Resume from './Resume';

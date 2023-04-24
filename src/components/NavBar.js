@@ -23,7 +23,7 @@ const Navbar = () => {
                 <li><a href="#stack">{t('skill')}</a></li>
                 <li><a href="#mes-projets">{t('projects')}</a></li>
                 <li><a href="#mes-services">{t('services')}</a></li>
-                <li><a><Link to="blog">BLOG</Link></a></li>
+                <li><a href="https://blog.melvinsilva.tech" target="_blank" rel="noreferrer">BLOG</a></li>
             </ul>
             {burger &&
                 <ul className="navbar-burger" onClick={handleClick}>
@@ -32,7 +32,7 @@ const Navbar = () => {
                     <a href="#stack"><li>{t('skill')}</li></a>
                     <a href="#mes-projets"><li>{t('projects')}</li></a>
                     <a href="#mes-services"><li>{t('services')}</li></a>
-                    <a><li><Link to="blog">BLOG</Link></li></a>
+                    <li><a href="https://blog.melvinsilva.tech" target="_blank" rel="noreferrer">BLOG</a></li>
                     <a href="#contact"><li>{t('contact')}</li></a>
                     <div className="wrapper-social">
                     <li><a href="https://twitter.com/RealBDSPROD" className="social-icon" target="_blank" rel="noreferrer"> <i className="fa fa-twitter"></i></a></li>

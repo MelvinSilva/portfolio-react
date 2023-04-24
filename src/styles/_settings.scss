@@ -199,3 +199,35 @@ body {
     right: calc(10% - 32px);
   }
 }
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.whatsapp-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.whatsapp-icon svg {
+  fill: #fff;
+  height: 20px;
+  width: 20px;
+}

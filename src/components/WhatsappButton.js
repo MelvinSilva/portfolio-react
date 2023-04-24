@@ -2,7 +2,7 @@ import React from "react";
 import { ImWhatsapp } from "react-icons/im";
 
 const WhatsappButton = () => {
-  const phoneNumber = "+3370012972"; // Remplacez ce numéro par votre numéro de téléphone
+  const phoneNumber = "33770012972"; // Remplacez ce numéro par votre numéro de téléphone
   const whatsappLink = `https://wa.me/${phoneNumber}`;
 
   const handleClick = () => {

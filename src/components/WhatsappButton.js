@@ -11,10 +11,10 @@ const WhatsappButton = () => {
 
   return (
     <a href={whatsappLink} className="whatsapp-button" onClick={handleClick}>
-      <span>Contactez-moi&nbsp;</span>
       <div className="whatsapp-icon">
         <ImWhatsapp />
       </div>
+      <span className="whatsapp-text">Contact via WhatsApp</span>
     </a>
   );
 };

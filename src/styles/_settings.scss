@@ -212,7 +212,7 @@ body {
   font-size: 18px;
   font-weight: bold;
   padding: 10px 20px;
-  border-radius: 50px;
+  border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   z-index: 9999;
   cursor: pointer;
@@ -226,8 +226,17 @@ body {
   margin-right: 10px;
 }
 
-.whatsapp-icon svg {
-  fill: #fff;
-  height: 20px;
-  width: 20px;
+@media screen and (max-width: 400px) {
+  .whatsapp-button .whatsapp-text {
+    display: none;
+  }
+  .whatsapp-button {
+    margin-right: 0;
+    font-size: 30px;
+    border-radius: 50px;
+  }
+
+  .whatsapp-icon {
+    margin: auto;
+  }
 }

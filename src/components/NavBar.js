@@ -50,13 +50,7 @@ const Navbar = () => {
             <li>{t("services")}</li>
           </a>
           <li>
-            <a
-              href="https://blog.melvinsilva.tech"
-              target="_blank"
-              rel="noreferrer"
-            >
-              BLOG
-            </a>
+            <NavLink to="blog">BLOG</NavLink>
           </li>
           <a href="#contact">
             <li>{t("contact")}</li>

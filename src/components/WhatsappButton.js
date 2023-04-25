@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 
 const WhatsappButton = () => {
   const [bounce, setBounce] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
   const phoneNumber = "33770012972"; // Remplacez ce numéro par votre numéro de téléphone
   const whatsappLink = `https://wa.me/${phoneNumber}`;
 
@@ -14,25 +15,33 @@ const WhatsappButton = () => {
 
   const props = useSpring({
     transform: bounce ? "scale(1.2)" : "scale(1)",
-    config: { mass: 5, tension: 200, friction: 4 },
+    config: { mass: 5, tension: 200, friction: 8 },
   });
 
   useEffect(() => {
-    setBounce(true);
+    const timeout = setTimeout(() => {
+      setIsVisible(true);
+      setBounce(true);
+    }, 2000);
+    return () => clearTimeout(timeout);
   }, []);
 
   return (
-    <animated.a
-      href={whatsappLink}
-      className="whatsapp-button"
-      onClick={handleClick}
-      style={props}
-    >
-      <div className="whatsapp-icon">
-        <ImWhatsapp />
-      </div>
-      <span className="whatsapp-text">Contactez-moi</span>
-    </animated.a>
+    <>
+      {isVisible && (
+        <animated.a
+          href={whatsappLink}
+          className="whatsapp-button"
+          onClick={handleClick}
+          style={props}
+        >
+          <div className="whatsapp-icon">
+            <ImWhatsapp />
+          </div>
+          <span className="whatsapp-text">Contactez-moi</span>
+        </animated.a>
+      )}
+    </>
   );
 };
 

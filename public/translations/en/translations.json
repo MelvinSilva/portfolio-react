@@ -1,41 +1,40 @@
 {
-    "home": "HOME",
-    "projects": "PROJECTS",
-    "skill": "SKILL",
-    "contact": "CONTACT",
-    "services" : "SERVICES",
+  "home": "HOME",
+  "projects": "PROJECTS",
+  "skill": "SKILL",
+  "contact": "CONTACT",
+  "services": "SERVICES",
 
-    "presentation": {
-      "title": "HI MY NAME IS",
-      "description": "Développeur Full Stack",
-      "description2": "& designer à Paris",
-      "my-description": "I am a full-stack developer at e.SNCF Solutions. Initially passionate about design and graphics, I took a liking to web development at the end of 2019 in a self-taught way. I decided to go on training afterwards in order to acquire knowledge and then validated the Web Developer and Mobile Web diploma (bac +2). I want to be as creative as possible by using my imagination and my skills in the realization of a project. My goal is to make your website as attractive and adaptable as possible by focusing on the user experience as much as possible. I invite you to discover my achievements and contact me for more info 🚀",
-      "my-description2": ""
-    },
+  "presentation": {
+    "title": "HI MY NAME IS",
+    "description": "Développeur Full Stack",
+    "description2": "& designer à Paris",
+    "my-description": "I am a full-stack developer at e.SNCF Solutions. Initially passionate about design and graphics, I took a liking to web development at the end of 2019 in a self-taught way. I decided to go on training afterwards in order to acquire knowledge and then validated the Web Developer and Mobile Web diploma. I want to be as creative as possible by using my imagination and my skills in the realization of a project. My goal is to make your website as attractive and adaptable as possible by focusing on the user experience as much as possible. I invite you to discover my achievements and contact me for more info 🚀",
+    "my-description2": ""
+  },
 
-    "stack-title": "Technicals skills",
-    "stack-description": "List of technological tools used to develop and operate a program.",
+  "stack-title": "Technicals skills",
+  "stack-description": "List of technological tools used to develop and operate a program.",
 
-    "myprojects-title": "My projects",
-    "myprojects-description": "I present you here the different projects that I have been able to carry out.",
+  "myprojects-title": "My projects",
+  "myprojects-description": "I present you here the different projects that I have been able to carry out.",
 
-    "contact-description": "Do not hesitate to contact me, I am at your disposal for more information. 😁",
-    "contact-name": "Name*",
-    "contact-email": "Email*",
-    "contact-message": "Message*",
-    "contact-button": "Send message",
+  "contact-description": "Do not hesitate to contact me, I am at your disposal for more information. 😁",
+  "contact-name": "Name*",
+  "contact-email": "Email*",
+  "contact-message": "Message*",
+  "contact-button": "Send message",
 
-    "resume-text": "See my CV 📝",
-    "resume-download": "Download CV 📝",
+  "resume-text": "See my CV 📝",
+  "resume-download": "Download CV 📝",
 
-    "myservices-title": "Expertise",
-    "myservices-description": "A new project? A desire to modernize your image? Need to be more visible on the web?",
+  "myservices-title": "Expertise",
+  "myservices-description": "A new project? A desire to modernize your image? Need to be more visible on the web?",
 
-    "service-title1": "UX DESIGN",
-    "service-description1": "For a successful user experience, many criteria and parameters must be taken into account: content, design, type of site, etc. The objective is for the user to easily reach his goal.",
-    "service-title2": "WEB DEVELOPMENT",
-    "service-description2": "Creation of a showcase site that allows you to put yourself forward and acquire more visibility. Depending on your objectives, I advise you on the technologies to use to create a unique showcase site.",
-    "service-title3": "GRAPHICS",
-    "service-description3": "Logo / Visual identity to imagine and create the graphic elements that will symbolize your company."
-
+  "service-title1": "UX DESIGN",
+  "service-description1": "For a successful user experience, many criteria and parameters must be taken into account: content, design, type of site, etc. The objective is for the user to easily reach his goal.",
+  "service-title2": "WEB DEVELOPMENT",
+  "service-description2": "Creation of a showcase site that allows you to put yourself forward and acquire more visibility. Depending on your objectives, I advise you on the technologies to use to create a unique showcase site.",
+  "service-title3": "GRAPHICS",
+  "service-description3": "Logo / Visual identity to imagine and create the graphic elements that will symbolize your company."
 }

@@ -3,13 +3,13 @@
   "projects": "PROYECTOS",
   "skill": "HABILIDAD",
   "contact": "CONTACTO",
-  "services" : "SERVICIOS",
+  "services": "SERVICIOS",
 
   "presentation": {
     "title": "ME LLAMO",
     "description": "Développeur Full Stack",
-      "description2": "& designer à Paris",
-    "my-description": "Soy desarrollador full-stack en e.SNCF Solutions. Inicialmente apasionado por el diseño y la gráfica, tomé el gusto por el desarrollo web a finales de 2019 de forma autodidacta. Decidí seguir formándome después para adquirir conocimientos y luego convalidé el diploma de Desarrollador Web y Web Móvil (bac +2). Quiero ser lo más creativo posible usando mi imaginación y mis habilidades en la realización de un proyecto. Mi objetivo es hacer que su sitio web sea lo más atractivo y adaptable posible centrándome en la experiencia del usuario tanto como sea posible. Te invito a descubrir mis logros y contactarme para más info 🚀.",
+    "description2": "& designer à Paris",
+    "my-description": "Soy desarrollador full-stack en e.SNCF Solutions. Inicialmente apasionado por el diseño y la gráfica, tomé el gusto por el desarrollo web a finales de 2019 de forma autodidacta. Decidí seguir formándome después para adquirir conocimientos y luego convalidé el diploma de Desarrollador Web y Web Móvil. Quiero ser lo más creativo posible usando mi imaginación y mis habilidades en la realización de un proyecto. Mi objetivo es hacer que su sitio web sea lo más atractivo y adaptable posible centrándome en la experiencia del usuario tanto como sea posible. Te invito a descubrir mis logros y contactarme para más info 🚀.",
     "my-description2": ""
   },
   "stack-title": "Habilidades técnicas",

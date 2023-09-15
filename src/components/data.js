@@ -33,7 +33,7 @@ export const data = [
         title: "Wiki-Player",
         content: "",
         image: "images/wikiplayer.webp",
-        langage: ["REACT.JS", "SCSS", "API"],
+        langage: ["REACT", "SCSS", "API"],
         website: "https://wiki-player.vercel.app/",
         github: "https://github.com/MelvinSilva/wiki-player",
         info: "Projet permettant de rechercher des sportifs de haut-niveau"
@@ -43,40 +43,41 @@ export const data = [
         title: "TicTacToe PSG",
         content: "",
         image: "images/tictactoepsg-1.webp",
-        langage: ["REACT.JS", "SCSS"],
+        langage: ["REACT", "SCSS"],
         website: "https://melvinsilva.github.io/tictactoe-psg/",
         github: "https://github.com/MelvinSilva/tictactoe-psg",
         info: "Comme son nom l'indique : Tic Tac Toe"
     },
     {
         id: 6,
-        title: "Destination RHR",
-        content: "",
-        image: "images/destination-rhr.webp",
-        langage: ["REACT.JS", "SCSS", "NODE.JS"],
-        website: "https://destination-rhr-2.vercel.app/",
-        info: "Projet full-stack fictif pour une entreprise. La base de données ne fonctionne pas actuellement.",
-    },
-    {
-        id: 7,
         title: "Tennis-Ratio",
         content: "",
         image: "images/tennis-ratio-1.webp",
-        langage: ["REACT.JS", "CSS"],
+        langage: ["REACT", "CSS"],
         website: "https://tennis-ratio.vercel.app",
         github: "https://github.com/MelvinSilva/tennis-ratio",
         info: "Projet permettant de calculer un ratio selon plusieurs paramètres tennistique",
     },
     {
-        id: 8,
+        id: 7,
         title: "My Portfolio",
         content: "",
         image: "images/myportfolio.png",
-        langage: ["REACT.JS", "SCSS", "TAILWIND"],
+        langage: ["REACT", "SCSS", "TAILWIND"],
         website: "https://melvinsilva.tech",
         github: "https://github.com/MelvinSilva/portfolio-react",
         info: "Mon portfolio que je vous présente actuellement",
     },
+    {
+        id: 8,
+        title: "Sporty Score",
+        content: "",
+        image: "images/sporty-score.webp",
+        langage: ["NEXT13", "TAILWINDCSS", "REACT"],
+        website: "https://sportyscore.fr",
+        info: "Résultat et actualité sportive",
+    },
+    
 ]
 
 export const stackData = [
@@ -106,11 +107,6 @@ export const stackData = [
         image: "images/angular-seeklogo.com.svg",
     },
     {
-        id: 6,
-        title: "BOOTSTRAP",
-        image: "images/bootstrap-seeklogo.com.svg",
-    },
-    {
         id: 7,
         title: "NODE.JS",
         image: "images/expressjs.jpeg",
@@ -130,14 +126,9 @@ export const stackData = [
         title: "PHOTOSHOP",
         image: "images/adobe-photoshop-seeklogo.com.svg",
     },
-    {
-        id: 11,
-        title: "ILLUSTRATOR",
-        image: "images/adobe-illustrator-seeklogo.com.svg",
-    },
-    /* {
+     {
         id: 12,
-        title: "NEXT.JS",
+        title: "NEXT13",
         image: "images/nextjs.png",
-    }, */
+    }, 
 ]

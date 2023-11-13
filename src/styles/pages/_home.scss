@@ -1,173 +1,171 @@
 .home {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    height: auto;
-    transition: all 0.4s ease-in-out;
-    
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  transition: all 0.4s ease-in-out;
 }
 
 .home.light {
-    background-color: #fffeff;
+  background-color: #fffeff;
+  color: #0f0517;
+  transition: all 0.5s ease-in-out;
+
+  p {
+    color: #0f0517a3;
+  }
+  h1 {
+    color: #0f051796;
+  }
+  svg {
     color: #0f0517;
-    transition: all 0.5s ease-in-out;
+  }
 
-    p {
-        color: #0f0517a3;
+  input,
+  textarea {
+    background: rgb(245, 245, 245);
+    color: #0f0517;
+    &::placeholder {
+      color: #0f051773;
     }
-    h1 {
-        color: #0f051796;
+  }
+  .selectdiv::after {
+    color: #0f0517a3;
+  }
+
+  .selectdiv select {
+    background: linear-gradient(45deg, #ffb6ff1d, #b444ff14);
+  }
+
+  .card-front:before {
+    background: rgb(245, 245, 245);
+  }
+
+  .card-front::after {
+    background-color: #0f0517c8;
+  }
+
+  .card-front .card-content p {
+    color: #0f0517a3;
+  }
+
+  .card-front .card-content h5 {
+    span {
+      color: #0000006f;
+      border: 2px solid #0000006f;
     }
+  }
+  .card-front .card-content {
+    color: #00000087;
     svg {
-        color: #0f0517;
+      color: #0000009f;
+    }
+  }
+  .card-back {
+    background: rgb(245, 245, 245);
+  }
+
+  .footer.light p {
+    color: #0f0517a3;
+  }
+
+  .card-front,
+  .card-back {
+    box-shadow: none;
+  }
+
+  .card-stack {
+    img {
+      background: rgb(245, 245, 245);
+    }
+    &:hover {
+      background: rgb(245, 245, 245);
+    }
+  }
+
+  .card-back .card-icons a {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+
+    svg {
+      color: white;
+    }
+  }
+
+  .card-front .card-content {
+    svg {
+      color: rgb(255, 255, 255);
+    }
+  }
+
+  .header {
+    background: linear-gradient(45deg, #b444ff05, #13061c05);
+  }
+
+  .my-profile {
+    h3 {
+      color: #0f0517a3;
+    }
+    .image-circle {
+      border: 3px solid #fbf4ff;
+    }
+  }
+
+  .navbar-burger {
+    background: rgb(245, 245, 245);
+
+    .hamburger-react {
+      color: #0f0517a3;
     }
 
-    input,
-    textarea {
-        background: rgb(245, 245, 245);
-        color: #0f0517;
-        &::placeholder {
-            color: #0f051773;
-        }
+    a {
+      color: #0f0517a3;
     }
-    .selectdiv::after {
-        color: #0f0517a3;
+  }
+  .navbar-normal {
+    a {
+      color: #0f0517a3;
     }
+  }
 
-    .selectdiv select {
-        background: linear-gradient(45deg, #ffb6ff1d, #b444ff14);
-    }
+  .fa-linkedin:hover {
+    background-color: #0073a4;
+  }
 
-    .card-front:before {
-        background: rgb(245, 245, 245);
+  .resume-cv {
+    background: rgb(245, 245, 245);
+    &:hover {
+      background: rgb(0, 0, 0);
+      color: white;
     }
+  }
 
-    .card-front::after {
-        background-color: #0f0517c8;
+  .resume-cv2 {
+    background: rgb(245, 245, 245);
+    &:hover {
+      background: rgb(0, 0, 0);
+    }
+    a {
+      color: #0f0517;
+      &:hover {
+        color: white;
       }
+    }
+  }
 
-    .card-front .card-content p {
-        color: #0f0517a3;
-    }
+  .box {
+    background: rgb(245, 245, 245);
+  }
 
-    .card-front .card-content h5 {
-        span {
-            color: #0000006f;
-            border: 2px solid #0000006f;
-        }
-    }
-    .card-front .card-content {
-        color: #00000087;
-        svg {
-            color: #0000009f;
-        }
-    }
-    .card-back {
-        background: rgb(245, 245, 245);
-    }
+  .content h2 {
+    color: #0f0517;
+  }
 
-    .footer.light p {
-        color: #0f0517a3;
-    }
+  .box:before {
+    background: #b444ff0f;
+  }
 
-    .card-front,
-    .card-back {
-        box-shadow: none;
-    }
-
-    .card-stack {
-        img {
-            background: rgb(245, 245, 245);
-        }
-        &:hover {
-            background: rgb(245, 245, 245);
-        }
-    }
-
-    .card-back .card-icons a {
-        color: rgb(255, 255, 255);
-        background: rgb(0, 0, 0);
-
-        svg {
-            color: white;
-        }
-    }
-
-    .card-front .card-content {
-        svg {
-            color: rgb(255, 255, 255);
-        }
-    }
-
-    .header {
-        background: linear-gradient(45deg, #b444ff05, #13061c05);
-    }
-
-    .my-profile {
-        h3 {
-            color: #0f0517a3;
-        }
-        .image-circle {
-            border: 3px solid #fbf4ff;
-        }
-    }
-
-    .navbar-burger {
-        background: rgb(245, 245, 245);
-
-        .hamburger-react {
-            color: #0f0517a3;
-        }
-
-        a {
-            color: #0f0517a3;
-        }
-    }
-    .navbar-normal {
-        a {
-            color: #0f0517a3;
-        }
-    }
-    
-    .fa-linkedin:hover {
-        background-color: #0073a4;
-    }
-
-    .resume-cv {
-        background: rgb(245, 245, 245);
-        &:hover {
-            background: rgb(0, 0, 0);
-            color: white;
-        }
-    }
-
-    .resume-cv2 {
-        background: rgb(245, 245, 245);
-        &:hover {
-            background: rgb(0, 0, 0);
-        }
-        a {
-            color: #0f0517;
-            &:hover {
-                color: white;
-            }
-        }
-    }
-
-    .box {
-        background: rgb(245, 245, 245);
-    }
-
-    .content h2 {
-        color: #0f0517;
-        
-    }
-
-    .box:before {
-        background: #b444ff0f;
-    }
-
-    .box span:before {
-        background: #b444ff0d;
-    }
+  .box span:before {
+    background: #b444ff0d;
+  }
 }

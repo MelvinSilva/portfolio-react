@@ -1,28 +1,28 @@
 {
-    "home": "CASE",
-    "projects": "PROJETOS",
-    "skill": "HABILIDADE",
-    "contact": "CONTATO",
-    "presentation": {
-      "title": "OI MEU NOME É",
-      "description": "Full stack developer",
-      "description2": "& designer in Paris",
-      "my-description": "Sou um desenvolvedor full stack de 31 anos com 1 ano de experiência. Quero ser o mais criativo possível usando minha imaginação e minhas habilidades em um projeto. Meu objetivo é tornar um site bonito e adaptável, focando na melhor experiência possível do usuário. 🚀",
-      "my-description2": ""
-    },
+  "home": "CASE",
+  "projects": "PROJETOS",
+  "skill": "HABILIDADE",
+  "contact": "CONTATO",
+  "presentation": {
+    "title": "OI MEU NOME É",
+    "description": "Full stack developer",
+    "description2": "& designer in Paris",
+    "my-description": "Quero ser o mais criativo possível usando minha imaginação e minhas habilidades em um projeto. Meu objetivo é tornar um site bonito e adaptável, focando na melhor experiência possível do usuário. 🚀",
+    "my-description2": ""
+  },
 
-    "stack-title": "Habilidades técnicas",
-    "stack-description": "Lista de ferramentas tecnológicas usadas para desenvolver e operar um programa.",
+  "stack-title": "Habilidades técnicas",
+  "stack-description": "Lista de ferramentas tecnológicas usadas para desenvolver e operar um programa.",
 
-    "myprojects-title": "Meus projetos",
-    "myprojects-description": "Apresento-vos aqui os diferentes projetos que pude realizar.",
+  "myprojects-title": "Meus projetos",
+  "myprojects-description": "Apresento-vos aqui os diferentes projetos que pude realizar.",
 
-    "contact-description": "Para qualquer projeto, entre em contato comigo neste formulário de contato para discuti-lo durante um café ☕ ",
-    "contact-description2": "ou outro se não gostar 😁",
-    "contact-name": "Nome",
-    "contact-email": "Email",
-    "contact-message": "Mensagem",
-    "contact-button": "Enviar mensagem",
+  "contact-description": "Para qualquer projeto, entre em contato comigo neste formulário de contato para discuti-lo durante um café ☕ ",
+  "contact-description2": "ou outro se não gostar 😁",
+  "contact-name": "Nome",
+  "contact-email": "Email",
+  "contact-message": "Mensagem",
+  "contact-button": "Enviar mensagem",
 
-    "resume-text": "Currículo aqui 📝"
+  "resume-text": "Currículo aqui 📝"
 }

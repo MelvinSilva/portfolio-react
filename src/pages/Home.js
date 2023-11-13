@@ -19,6 +19,7 @@ const Home = () => {
     <div className={theme ? "home" : "home light"} id="home">
       <BtnToggle />
       <Header />
+      <Logo3D />
       <Presentation />
       <Stack />
       <MyProjects />

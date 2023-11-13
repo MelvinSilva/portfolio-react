@@ -3,14 +3,13 @@
   "projects": "RÉALISATIONS",
   "skill": "COMPÉTENCES",
   "contact": "CONTACT",
-  "services": "SERVICES",
+  "services": "EXPERTISES",
 
   "presentation": {
-    "title": "DÉVELOPPEUR FREELANCE",
-    "description": "Site internet",
-    "description1": "Application web",
-    "description2": "Identité visuelle",
-    "my-description": "AMÉLIOREZ VOTRE PRÉSENCE EN LIGNE ET ATTIREZ DE NOUVEAUX CLIENTS",
+    "title": "JE M'APPELLE",
+    "description": "Développeur Full Stack",
+    "description2": "& designer à Paris",
+    "my-description": "Mon objectif est de vous aider à construire une présence en ligne ainsi qu'une expérience utilisateur exceptionnelle. En plus de mes compétences en développement, je nourris une passion pour le design et la création graphique. Mon approche intègre harmonieusement le développement et le design pour créer des sites web esthétiques, conviviaux et efficaces.N'hésitez pas à me contacter, je suis prêt à mettre mon expertise au service de votre entreprise pour vous aider à vous démarquer sur le web.",
     "my-description2": ""
   },
 
@@ -29,7 +28,7 @@
   "resume-text": "Voir mon CV 📝",
   "resume-download": "Télécharger CV 📝",
 
-  "myservices-title": "Mes services",
+  "myservices-title": "Expertises",
   "myservices-description": "Un nouveau projet ? Une envie de moderniser votre image ? Besoin d’être plus visible sur le web ?",
 
   "service-title1": "UX DESIGN",

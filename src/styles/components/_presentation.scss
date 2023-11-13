@@ -12,7 +12,7 @@
 }
 
 .presentation {
-  margin: 100px auto;
+  margin: auto;
   text-align: center;
   font-size: 30px;
   display: flex;
@@ -30,7 +30,7 @@
     font-family: "regular";
     font-size: 20px;
     color: rgba(255, 255, 255, 0.693);
-    letter-spacing: 3px;
+    letter-spacing: 20px;
     @media screen and(max-width:540px) {
       font-size: 9px;
       letter-spacing: 8px;
@@ -39,9 +39,9 @@
 
   .description {
     margin: 50px 100px;
-    text-align: center;
+    text-align: justify;
     font-family: "regular";
-    font-size: 30px;
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.75);
     letter-spacing: 3px;
 

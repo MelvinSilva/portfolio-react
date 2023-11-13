@@ -30,9 +30,9 @@ const Navbar = () => {
         <li>
           <a href="#mes-services">{t("services")}</a>
         </li>
-        <li>
+        {/* <li>
           <NavLink to="blog">BLOG</NavLink>
-        </li>
+        </li> */}
       </ul>
       {burger && (
         <ul className="navbar-burger" onClick={handleClick}>
@@ -49,9 +49,9 @@ const Navbar = () => {
           <a href="#mes-services">
             <li>{t("services")}</li>
           </a>
-          <li>
+          {/*   <li>
             <NavLink to="blog">BLOG</NavLink>
-          </li>
+          </li> */}
           <a href="#contact">
             <li>{t("contact")}</li>
           </a>

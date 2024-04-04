@@ -21,9 +21,9 @@ const Home = () => {
       <Header />
       <Logo3D />
       <Presentation />
-      <Stack />
-      <MyProjects />
       <MyServices />
+      <MyProjects />
+      <Stack />
       <Contact />
       <WhatsappButton />
       <Footer />

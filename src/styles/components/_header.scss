@@ -1,16 +1,16 @@
 .header {
-    z-index: 10;
-    position: fixed;
+  z-index: 10;
+  position: fixed;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  background: #1c0f2bcd;
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+  backdrop-filter: saturate(180%) blur(10px);
+  @media screen and(max-width:450px) {
     height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    background: #13061cbd;
-    -webkit-backdrop-filter: saturate(180%) blur(10px);
-    backdrop-filter: saturate(180%) blur(10px);
-    @media screen and(max-width:450px) {
-        height: auto;
-    }
+  }
 }

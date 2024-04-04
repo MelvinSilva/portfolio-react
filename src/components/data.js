@@ -11,12 +11,12 @@ export const data = [
     }, */
   {
     id: 1,
-    title: "LM - Expertise & Consulting",
+    title: "Carmisphère",
     content: "",
-    image: "images/lmexpertise-1.webp",
-    langage: ["HTML", "CSS", "JS", "BOOTSTRAP"],
-    website: "https://lmexpertise.com",
-    info: "Site web vitrine pour une agence d'expertise et de consulting",
+    image: "images/carmisphere.webp",
+    langage: ["ANGULAR", "TAILWIND", "STRAPI"],
+    website: "https://carmisphere.fr",
+    info: "Bons plans pass Carmillon pour les cheminots",
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ export const data = [
     title: "Sporty Score",
     content: "",
     image: "images/sporty-score.webp",
-    langage: ["NEXT13", "TAILWINDCSS", "REACT"],
+    langage: ["NEXT13", "TAILWIND", "REACT"],
     website: "https://sportyscore.fr",
     info: "Résultat et actualité sportive",
   },

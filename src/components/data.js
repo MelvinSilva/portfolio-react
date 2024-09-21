@@ -54,7 +54,7 @@ export const data = [
     content: "",
     image: "images/sporty-score.webp",
     langage: ["NEXT13", "TAILWIND", "REACT"],
-    website: "https://sportyscore.fr",
+    website: "https://sportyscore.vercel.app",
     info: "Résultat et actualité sportive",
   },
 ];
